@@ -1,0 +1,34 @@
+/*(ldpi) Android*/
+@media only screen and (-webkit-device-pixel-ratio:.75){
+
+}
+
+/*(mdpi) Android*/
+@media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
+
+
+}
+
+/*(hdpi) Android*/
+@media only screen and (-webkit-device-pixel-ratio:1.5){
+
+
+}
+
+/* iPad */
+@media all and (device-width: 768px) {
+
+
+}
+
+/* Tablets */
+@media all and (max-device-width: 767px) and (min-device-width: 641px) {
+
+
+}
+
+/* Phones */
+@media all and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}

@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+    margin: 0 auto;	
+	font-family: Tahoma,Geneva,Arial,sans-serif !important;
+    font-size:9px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.body-bg{
+	background-color: white;
+    opacity: 1;
+}

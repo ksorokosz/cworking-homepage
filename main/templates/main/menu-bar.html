@@ -1,0 +1,24 @@
+{% load staticfiles %}
+{% load i18n %}
+
+<div id="menu" class="menu-nav">
+	<div id="logo">
+		<a href="{{ SITE_URL }}"><img src="{% static 'main/css/images/cworking.png' %}"/></a>
+	</div>
+	<table id="standard-links">
+		<tr>
+                <td id="standard-link">
+                        <a href="{{ SITE_URL }}/about">{% blocktrans %}About Me{% endblocktrans %}</a>
+                </td>
+			    <td id="standard-link">
+				    <a href="{{ SITE_URL }}/research">{% blocktrans %}Research{% endblocktrans %}</a>
+			    </td>
+			    <td id="standard-link">
+                    <a href="{{ SITE_URL }}/publications">{% blocktrans %}Publications{% endblocktrans %}</a>
+			    </td>
+			    <td id="standard-link">
+                    <a href="{{ SITE_URL }}/blog">{% blocktrans %}Blog{% endblocktrans %}</a>
+			    </td>
+		</tr>
+	</table>
+</div>
