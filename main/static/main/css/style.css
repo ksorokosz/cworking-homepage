@@ -16,17 +16,16 @@ body {
 
 div.menu-nav {
  	overflow: hidden;
-    background-color: #a9a3a3;
+    background-color: white;
 	height: 70px;
 	width: 100%;
 	position: fixed;
 	z-index: 999;
 	top: 0;
-	opacity: 0.75;
+	opacity: 1;
 }
 
 div#about {
-	color: white;
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
@@ -34,13 +33,12 @@ div#about {
 	width: 100%;
 }
 
-div#separator {
-	height: 70px;
+div#publications {
+	height: 450px;
 	margin: 0 auto;
 }
 
 div#research {
-	color: white;
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
@@ -48,9 +46,56 @@ div#research {
 	width: 100%;
 }
 
+/* Menu */
+
 div#contact {
 	margin: 0 auto; 
 	padding: 25px;
-	/* background-color: #d3ecec; */
 	border-top: 1px solid #c6d2d2;
+}
+
+div#contact table {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table#standard-links {
+	float: right;
+	height: 70px;
+}
+
+tr td#standard-link {
+	color: black !important;
+	padding: 25px;
+}
+
+div#logo {
+	float: left;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+#logo img {
+	height: 55px;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  cursor:default;
 }

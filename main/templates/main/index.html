@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="separator">
+<div id="publications">
 
 </div>
 
@@ -20,11 +20,11 @@
 
 <div id="contact">
     <form role="form" method="post" action="contact/">
-            <table>      
-            <tr><td colspan=2>{% csrf_token %}</td></tr>
-            {{ contact }}
-            <tr><td colspan=2><input type="submit" value="{% blocktrans %}Send{% endblocktrans %}"></td></tr>
-            </table>
+        <table>
+        <tr><td/><td>{% csrf_token %}</td></tr>
+        {{ contact.as_table }}
+        <tr><td/><td><input type="submit" value="{% blocktrans %}Send{% endblocktrans %}"></td></tr>
+        </table>
     </form>
 </div>
 

@@ -10,6 +10,7 @@ import datetime, sys
 from django.utils.translation import ugettext_lazy as _
 
 class ContactForm(forms.Form):
+
     first_name = forms.CharField(required=True, label=_("First Name"), )
     last_name = forms.CharField(required=True, label=_("Last Name"), )
     email = forms.CharField(required=True, label=_("Email"), )

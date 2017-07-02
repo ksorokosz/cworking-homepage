@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import get_object_or_404, render, redirect
@@ -9,6 +10,10 @@ from django.http import HttpResponse
 from django.contrib import messages
 from django.contrib.auth import logout
 from django.urls import reverse
+from .forms import ContactForm
+from django.core.mail import EmailMessage
+from django.template import Context
+from django.template.loader import get_template
 from django.utils.translation import ugettext_lazy as _
 
 # Create your views here.
@@ -16,7 +21,8 @@ from django.utils.translation import ugettext_lazy as _
 # Main page of the service
 def index(request):
 
-    context = {}
+    contact = ContactForm()
+    context = { 'contact': contact }
     return render(request, 'main/index.html', context)
 
 
@@ -28,7 +34,7 @@ def contact(request):
 
         if form.is_valid():
             
-            contact_name = form.cleaned_data.get('first_name') + form.cleaned_data.get('last_name')
+            contact_name = ' '.join([form.cleaned_data.get('first_name'), form.cleaned_data.get('last_name')])
             contact_email = form.cleaned_data.get('email')
             form_subject = form.cleaned_data.get('subject')
             form_content = form.cleaned_data.get('content')
@@ -44,7 +50,7 @@ def contact(request):
             content = template.render(context)
 
             email = EmailMessage(
-                _("New message") + form_subject,
+                form_subject,
                 content,
                 settings.SITE_URL,
                 settings.RECIPIENTS_LIST,
