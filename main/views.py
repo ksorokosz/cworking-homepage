@@ -25,6 +25,11 @@ def index(request):
     context = { 'contact': contact }
     return render(request, 'main/index.html', context)
 
+def blog(request):
+
+    context = {}
+    return render(request, 'main/blog.html', context)
+
 
 def contact(request):
 
