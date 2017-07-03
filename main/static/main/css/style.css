@@ -25,7 +25,7 @@ div.menu-nav {
 	opacity: 1;
 }
 
-div#about {
+div#about-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
@@ -38,7 +38,14 @@ div#publications {
 	margin: 0 auto;
 }
 
-div#research {
+span#publications-section {
+    display: block;
+	height: 115px;
+    margin-top: -115px;
+	visibility: hidden;
+}
+
+div#research-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
@@ -48,13 +55,13 @@ div#research {
 
 /* Menu */
 
-div#contact {
+div#contact-section {
 	margin: 0 auto; 
 	padding: 25px;
 	border-top: 1px solid #c6d2d2;
 }
 
-div#contact table {
+div#contact-section table {
     margin-left: auto; 
     margin-right: auto;
 }
