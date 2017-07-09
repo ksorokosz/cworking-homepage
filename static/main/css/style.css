@@ -16,31 +16,88 @@ body {
 
 div.menu-nav {
  	overflow: hidden;
-    background-color: #a9a3a3;
+    background-color: white;
 	height: 70px;
 	width: 100%;
 	position: fixed;
 	z-index: 999;
 	top: 0;
-	opacity: 0.75;
+	opacity: 1;
 }
 
-div#about {
-	color: white;
+div#about-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
 	height: 640px;
 	width: 100%;
+    color: #cfc8c5;
 }
 
-div#separator {
-	height: 70px;
+#about-section .title {
+    padding-top: 95px;
+}
+
+div#container {
+    padding-top: 15px;
+}
+
+div#chart-container-1 {
+    float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: rgba(255,255,255,0.0);
+    height: auto;
+}
+
+div#chart { 
+    width: 20vw;
+    height: auto;
+} 
+
+div#values-icons {
+    float: right;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    background-color: rgba(255,255,255,0.0);
+    height: auto;
+}
+
+div#icons {
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#icons table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#icons table td {
+    padding: 1vw;
+}
+
+#icons img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+}
+
+div#papers {
+	height: 450px;
 	margin: 0 auto;
 }
 
-div#research {
-	color: white;
+span#publications-section {
+    display: block;
+	height: 115px;
+    margin-top: -115px;
+	visibility: hidden;
+}
+
+div#research-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
@@ -48,9 +105,62 @@ div#research {
 	width: 100%;
 }
 
-div#contact {
+/* Menu */
+
+div#contact-section {
 	margin: 0 auto; 
 	padding: 25px;
-	/* background-color: #d3ecec; */
 	border-top: 1px solid #c6d2d2;
+}
+
+div#contact-section table {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table#standard-links {
+	float: right;
+	height: 70px;
+}
+
+tr td#standard-link {
+	color: black !important;
+	padding: 25px;
+}
+
+div#logo {
+	float: left;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+#logo img {
+	height: 55px;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+
+.small-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  cursor:default;
 }

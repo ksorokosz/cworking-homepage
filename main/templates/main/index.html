@@ -7,26 +7,20 @@
 {% include "main/menu-bar.html" %}
 
 <div id="about-section">
-
+    {% include "main/about.html" %}
 </div>
 
 <span class="anchor" id="publications-section"></span>
-<div id="publications">
-
+<div id="papers">
+    {% include "main/publications.html" %}
 </div>
 
 <div id="research-section">
-
+    {% include "main/research.html" %}
 </div>
 
 <div id="contact-section">
-    <form role="form" method="post" action="contact/">
-        <table>
-        <tr><td/><td>{% csrf_token %}</td></tr>
-        {{ contact.as_table }}
-        <tr><td/><td><input type="submit" value="{% blocktrans %}Send{% endblocktrans %}"></td></tr>
-        </table>
-    </form>
+    {% include "main/contact.html" %}
 </div>
 
 

@@ -1,0 +1,10 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<form role="form" method="post" action="contact/">
+    <table>
+    <tr><td/><td>{% csrf_token %}</td></tr>
+    {{ contact.as_table }}
+    <tr><td/><td><input type="submit" value="{% blocktrans %}Send{% endblocktrans %}"></td></tr>
+    </table>
+</form>

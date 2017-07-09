@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-02 23:58+0200\n"
+"POT-Creation-Date: 2017-07-09 22:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+
 #: main/forms.py:14
 msgid "First Name"
 msgstr "Imię"
@@ -38,11 +39,19 @@ msgstr "Temat"
 msgid "Message"
 msgstr "Wiadomość"
 
+#: main/templates/main/about.html:11
+msgid "Interests"
+msgstr "Zainteresowania"
+
+#: main/templates/main/about.html:17
+msgid "Values"
+msgstr "Wartości"
+
 #: main/templates/main/base.html:8
 msgid "Cworking++"
 msgstr "Cworking++"
 
-#: main/templates/main/index.html:26
+#: main/templates/main/contact.html:8
 msgid "Send"
 msgstr "Wyślij"
 
