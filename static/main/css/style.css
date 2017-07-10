@@ -64,7 +64,7 @@ div#values-icons {
 }
 
 div#icons {
-    width: 20vw;
+    width: 30vw;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -76,13 +76,16 @@ div#icons {
 }
 
 #icons table td {
-    padding: 1vw;
+    padding: 2.5vw;
 }
 
 #icons img {
     width: 5vw;
     height: 5vw;
     border-radius: 5vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 div#papers {
