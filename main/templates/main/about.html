@@ -2,7 +2,7 @@
 {% load staticfiles %}
 
 <div class=title>
-    <h1><a target="_blank" href="https://www.linkedin.com/in/kamilsorokosz/">Kamil Sorokosz</a></h1>
+    <h1>Kamil Sorokosz</h1>
     <h4> Software Engineer </h4>
 </div>
 
@@ -10,7 +10,7 @@
     <div id="chart-container-1">
         <h3>{% blocktrans %}Interests{% endblocktrans %}</h3>
         <div id="chart">
-            <canvas id="interests" width=20vw height=20vw></canvas>
+            <canvas id="interests"></canvas>
         </div>
     </div>
     <div id="values-icons">
@@ -19,24 +19,30 @@
             <table>
             <tr>
                 <td>
-                    <img src="{% static 'main/css/images/cooperation.png' %}" alt="Cooperation" border="0" /> 
+                    <img data-toggle="tooltip" title="Cooperation" src="{% static 'main/css/images/cooperation.png' %}" 
+                         alt="Cooperation" border="0" /> 
                 </td>
                 <td>
-                    <img src="{% static 'main/css/images/precision.png' %}" alt="Precision" border="0" /> 
+                    <img data-toggle="tooltip" title="Precision" src="{% static 'main/css/images/precision.png' %}" 
+                         alt="Precision" border="0" /> 
                 </td>
                 <td>
-                    <img src="{% static 'main/css/images/knowledge.png' %}" alt="Knowledge" border="0" /> 
+                    <img data-toggle="tooltip" title="Knowledge" src="{% static 'main/css/images/knowledge.png' %}" 
+                         alt="Knowledge" border="0" /> 
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="{% static 'main/css/images/patience.png' %}" alt="Patience" border="0" /> 
+                    <img data-toggle="tooltip" title="Patience" src="{% static 'main/css/images/patience.png' %}" 
+                         alt="Patience" border="0" /> 
                 </td>
                 <td>
-                    <img src="{% static 'main/css/images/communication.png' %}" alt="Communication" border="0" /> 
+                    <img data-toggle="tooltip" title="Communication" src="{% static 'main/css/images/communication.png' %}" 
+                         alt="Communication" border="0" /> 
                 </td>
                 <td>
-                    <img src="{% static 'main/css/images/trust.png' %}" alt="Trust" border="0" /> 
+                    <img data-toggle="tooltip" title="Trust" src="{% static 'main/css/images/trust.png' %}" 
+                         alt="Trust" border="0" /> 
                 </td>
             </tr>
             </table>

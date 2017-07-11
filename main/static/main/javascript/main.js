@@ -1,4 +1,13 @@
 
+function fillTextMultiLine(ctx, text, x, y) {
+  var lineHeight = ctx.measureText("M").width * 1.2;
+  var lines = text.split("\n");
+  for (var i = 0; i < lines.length; ++i) {
+    ctx.fillText(lines[i], x, y);
+    y += lineHeight;
+  }
+}
+
 function plotChart(obj, values, labels, reversed) {
 
     Chart.defaults.global.defaultFontColor = '#cfc8c5';
@@ -59,8 +68,8 @@ function plotChart(obj, values, labels, reversed) {
                     this.data.datasets.forEach(function(dataset, i) {
                         var meta = chartInstance.controller.getDatasetMeta(i);
                         meta.data.forEach(function(bar, index) {
-                            var data = labels[index];
-                            ctx.fillText(data, bar._model.x, bar._model.y - 10);
+                            var data = labels[index].toString();
+                            fillTextMultiLine(ctx, data, bar._model.x, bar._model.y - 20);
                             ctx.fillText(dataset.data[index] + " %", bar._model.x, bar._model.y + 20);
                         });
                     });
@@ -92,6 +101,11 @@ $(document).ready(function() {
         return false;
     });
 
+    $('[data-toggle="tooltip"]').tooltip(); 
+
     var interests_chart = document.getElementById("interests");
-    plotChart(interests_chart, [20, 30, 50], ['embedded', 'ai', 'dsp'], false)
-});
+    plotChart(interests_chart, [15, 50, 60, 80, 70, 40], 
+             [ 'web design', 'embedded\nprogramming', 'machine\nlearning', 
+               'digital signal\nprocessing', 'process\nautomatization',
+               'teaching'], false)
+});0

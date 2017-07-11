@@ -39,6 +39,7 @@ div#about-section {
 }
 
 div#container {
+    overflow: hidden;
     padding-top: 15px;
 }
 
@@ -51,14 +52,14 @@ div#chart-container-1 {
 }
 
 div#chart { 
-    width: 20vw;
+    width: 35vw;
     height: auto;
 } 
 
 div#values-icons {
     float: right;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
     background-color: rgba(255,255,255,0.0);
     height: auto;
 }
@@ -88,16 +89,15 @@ div#icons {
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-div#papers {
-	height: 450px;
+div#separator {
+	height: 70px;
 	margin: 0 auto;
 }
 
-span#publications-section {
-    display: block;
-	height: 115px;
-    margin-top: -115px;
-	visibility: hidden;
+#separator img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
 }
 
 div#research-section {
