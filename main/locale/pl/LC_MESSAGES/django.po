@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 19:10+0200\n"
+"POT-Creation-Date: 2017-07-11 19:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,21 +120,34 @@ msgid "About Me"
 msgstr "O mnie"
 
 #: main/templates/main/menu-bar.html:17
-msgid "Research"
-msgstr "Badania"
+msgid "Research & Development"
+msgstr "Badania i Rozwój"
 
 #: main/templates/main/menu-bar.html:20
 msgid "Contact"
 msgstr "Kontakt"
 
 #: main/templates/main/research.html:6
-msgid "Voice hallucinations therapy"
+msgid "Therapy of Auditory Hallucinations"
 msgstr "Terapia omamów słuchowych"
 
 #: main/templates/main/research.html:10
-msgid "Voice restoration"
-msgstr "Rekonstrukcja głosu"
+msgid "Voice conversion and restoration"
+msgstr "Konwersja i rekonstrukcja głosu"
 
 #: main/templates/main/research.html:14
-msgid "Telecomunication"
-msgstr "Telekomunikacja"
+msgid "Automated speech quality assurence"
+msgstr "Automatyczna ocena jakości sygnału mowy"
+
+#: main/templates/main/research.html:18
+msgid "Speech Enhancement Hardware/Software Design"
+msgstr ""
+"Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
+
+#: main/templates/main/research.html:22
+msgid "Data production automatization for machine learning"
+msgstr "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
+
+#: main/templates/main/research.html:26
+msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
+msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"

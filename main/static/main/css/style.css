@@ -118,13 +118,13 @@ div#research-section {
 	width: 100%;
 }
 
-div#publications {
+div#subjects {
     margin: 0 auto;
     display: block;
 }
 
 div#subject {
-    padding-top: 100px;
+    padding-top: 80px;
     display: block;
 }
 
