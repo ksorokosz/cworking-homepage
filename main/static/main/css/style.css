@@ -29,7 +29,7 @@ div#about-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-	height: 640px;
+	height: 60vw;
 	width: 100%;
     color: #cfc8c5;
 }
@@ -114,7 +114,7 @@ div#research-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-	height: 640px;
+	height: 100vw;
 	width: 100%;
 }
 
