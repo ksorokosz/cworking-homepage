@@ -43,7 +43,7 @@ div#container {
 }
 
 div#chart-container-1 {
-    float: left;
+    display: inline-block;
     padding-left: 10vw;
     padding-right: 10vw;
     background-color: rgba(255,255,255,0.0);
@@ -51,14 +51,14 @@ div#chart-container-1 {
 }
 
 div#chart { 
-    width: 20vw;
+    width: 35vw;
     height: auto;
 } 
 
 div#values-icons {
-    float: right;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    display: inline-block;
+    padding-right: 5vw;
+    padding-left: 5vw;
     background-color: rgba(255,255,255,0.0);
     height: auto;
 }
@@ -86,18 +86,28 @@ div#icons {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all 0.75s 0.25s;
 }
 
-div#papers {
-	height: 450px;
+#icons img:hover {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    transform: rotate(360deg);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+}
+
+div#separator {
+	height: 5vw;
 	margin: 0 auto;
 }
 
-span#publications-section {
-    display: block;
-	height: 115px;
-    margin-top: -115px;
-	visibility: hidden;
+#separator img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
 }
 
 div#research-section {
@@ -108,17 +118,53 @@ div#research-section {
 	width: 100%;
 }
 
+div#subjects {
+    margin: 0 auto;
+    display: block;
+}
+
+div#subject {
+    padding-top: 80px;
+    display: block;
+}
+
 /* Menu */
 
 div#contact-section {
 	margin: 0 auto; 
-	padding: 25px;
+    padding-top:  5vw;
+    padding-bottom: 10vw;
+    height: 50vw;
 	border-top: 1px solid #c6d2d2;
+}
+
+div#contact-section h2 {
+    padding-bottom: 5vw;
 }
 
 div#contact-section table {
     margin-left: auto; 
     margin-right: auto;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1vw;
+    background-color: #efefef;
+    opacity: 0.95;
+    text-align: center;
+}
+
+.footer p {
+    display: inline-block;
+    width: 90vw;
+}
+
+.footer i {
+    display: inline-block;
 }
 
 table#standard-links {
