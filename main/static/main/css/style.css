@@ -87,6 +87,17 @@ div#icons {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all 0.75s 0.25s;
+}
+
+#icons img:hover {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    transform: rotate(360deg);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
 }
 
 div#separator {
@@ -108,11 +119,22 @@ div#research-section {
 	width: 100%;
 }
 
+div#publications {
+    margin: 0 auto;
+    display: block;
+}
+
+div#subject {
+    padding-top: 100px;
+    display: block;
+}
+
 /* Menu */
 
 div#contact-section {
 	margin: 0 auto; 
-	padding: 25px;
+    padding-top: 15vw;
+    height: 50vw;
 	border-top: 1px solid #c6d2d2;
 }
 
