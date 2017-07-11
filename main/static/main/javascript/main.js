@@ -103,9 +103,11 @@ $(document).ready(function() {
 
     $('[data-toggle="tooltip"]').tooltip(); 
 
+    $("#footer-button").click(function() { 
+        $(".footer").toggle();
+    });
+
     var interests_chart = document.getElementById("interests");
     plotChart(interests_chart, [15, 50, 60, 80, 70, 40], 
-             [ 'web design', 'embedded\nprogramming', 'machine\nlearning', 
-               'digital signal\nprocessing', 'process\nautomatization',
-               'teaching'], false)
-});0
+              interests_data, false)
+});

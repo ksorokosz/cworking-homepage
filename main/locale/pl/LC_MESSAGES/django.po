@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-09 22:52+0200\n"
+"POT-Creation-Date: 2017-07-11 19:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,11 +47,67 @@ msgstr "Zainteresowania"
 msgid "Values"
 msgstr "Wartości"
 
+#: main/templates/main/about.html:22 main/templates/main/about.html:24
+msgid "Cooperation"
+msgstr "Współpraca"
+
+#: main/templates/main/about.html:27 main/templates/main/about.html:29
+msgid "Precision"
+msgstr "Precyzja"
+
+#: main/templates/main/about.html:32 main/templates/main/about.html:34
+msgid "Knowledge"
+msgstr "Wiedza"
+
+#: main/templates/main/about.html:39 main/templates/main/about.html:41
+msgid "Patience"
+msgstr "Cierpliwość"
+
+#: main/templates/main/about.html:44 main/templates/main/about.html:46
+msgid "Communication"
+msgstr "Komunikacja"
+
+#: main/templates/main/about.html:49 main/templates/main/about.html:51
+msgid "Trust"
+msgstr "Zaufanie"
+
 #: main/templates/main/base.html:8
 msgid "Cworking++"
 msgstr "Cworking++"
 
-#: main/templates/main/contact.html:8
+#: main/templates/main/base.html:14
+msgid "web design"
+msgstr "projektowanie\\nstron www"
+
+#: main/templates/main/base.html:15
+msgid "embedded\\nprogramming"
+msgstr "programowanie\\nembedded"
+
+#: main/templates/main/base.html:16
+msgid "machine\\nlearning"
+msgstr "uczenie\\nmaszynowe"
+
+#: main/templates/main/base.html:17
+msgid "digital signal\\nprocessing"
+msgstr "cyfrowe przetwarzanie\\nsygnałów"
+
+#: main/templates/main/base.html:18
+msgid "process\\nautomatization"
+msgstr "automatyzacja\\nprocesów"
+
+#: main/templates/main/base.html:19
+msgid "teaching"
+msgstr "kształcenie"
+
+#: main/templates/main/base.html:43
+msgid "Cworking++ project source code"
+msgstr "Kod projektu Cworking++"
+
+#: main/templates/main/contact.html:4
+msgid "feel free to contact me..."
+msgstr "skontaktuj się ze mną..."
+
+#: main/templates/main/contact.html:9
 msgid "Send"
 msgstr "Wyślij"
 
@@ -64,13 +120,21 @@ msgid "About Me"
 msgstr "O mnie"
 
 #: main/templates/main/menu-bar.html:17
-msgid "Publications"
-msgstr "Publikacje"
-
-#: main/templates/main/menu-bar.html:20
 msgid "Research"
 msgstr "Badania"
 
-#: main/templates/main/menu-bar.html:23
+#: main/templates/main/menu-bar.html:20
 msgid "Contact"
 msgstr "Kontakt"
+
+#: main/templates/main/research.html:6
+msgid "Voice hallucinations therapy"
+msgstr "Terapia omamów słuchowych"
+
+#: main/templates/main/research.html:10
+msgid "Voice restoration"
+msgstr "Rekonstrukcja głosu"
+
+#: main/templates/main/research.html:14
+msgid "Telecomunication"
+msgstr "Telekomunikacja"
