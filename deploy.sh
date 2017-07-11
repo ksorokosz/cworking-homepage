@@ -23,5 +23,4 @@ ssh -p $port pi@$ip_address "sudo cp /var/www/cworking/config/apache.conf /etc/a
 ssh -p $port pi@$ip_address "sudo cp -R /var/www/cworking/static/main /var/www/cworking/static/font-awesome-4.7.0 /var/www/static/"
 ssh -p $port pi@$ip_address 'sudo service apache2 reload'
 ssh -p $port pi@$ip_address 'sudo service apache2 restart'
-ssh -p $port pi@$ip_address 'cd /var/www/cworking && python manage.py migrate'
 

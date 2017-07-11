@@ -15,6 +15,6 @@ path = '/var/www/cworking'
 if path not in sys.path:
     sys.path.append(path)
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "freelancers.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cworking.settings")
 
 application = get_wsgi_application()

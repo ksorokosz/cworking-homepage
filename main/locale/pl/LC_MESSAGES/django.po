@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 19:33+0200\n"
+"POT-Creation-Date: 2017-07-11 22:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,10 @@ msgstr "Temat"
 #: main/forms.py:18
 msgid "Message"
 msgstr "Wiadomość"
+
+#: main/templates/main/about.html:6
+msgid "Software Engineer"
+msgstr "Inżynier Programista"
 
 #: main/templates/main/about.html:11
 msgid "Interests"
@@ -141,8 +145,7 @@ msgstr "Automatyczna ocena jakości sygnału mowy"
 
 #: main/templates/main/research.html:18
 msgid "Speech Enhancement Hardware/Software Design"
-msgstr ""
-"Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
+msgstr "Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
 
 #: main/templates/main/research.html:22
 msgid "Data production automatization for machine learning"
