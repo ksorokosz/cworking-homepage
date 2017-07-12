@@ -1,18 +1,80 @@
 /*(ldpi) Android*/
 @media only screen and (-webkit-device-pixel-ratio:.75){
 
+    div#research-section {
+	    margin: 0 auto;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background-size: 100% 100%;
+	    height: auto;
+        min-height: 100vh;
+    }
+
+    div#chart-container-1 {
+        padding-top: 10vh;
+        display: block;
+        width: 90vw;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    div#values-icons {
+        padding-top: 10vh;
+        display: block;
+        vertical-align: top;
+        background-color: rgba(255,255,255,0.0);
+    }
+
 }
 
 /*(mdpi) Android*/
 @media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
 
+    div#research-section {
+	    margin: 0 auto;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background-size: 100% 100%;
+	    height: auto;
+        min-height: 100vh;
+    }
 
+    div#chart-container-1 {
+        padding-top: 10vh;
+        display: block;
+        width: 90vw;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    div#values-icons {
+        padding-top: 10vh;
+        display: block;
+        vertical-align: top;
+        background-color: rgba(255,255,255,0.0);
+    }
 }
 
 /*(hdpi) Android*/
 @media only screen and (-webkit-device-pixel-ratio:1.5){
 
+    div#research-section {
+	    margin: 0 auto;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background-size: 100% 100%;
+	    height: auto;
+        min-height: 100vh;
+    }
 
+    div#chart-container-1 {
+        padding-top: 10vh;
+        display: block;
+        width: 90vw;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    div#values-icons {
+        padding-top: 10vh;
+        display: block;
+        vertical-align: top;
+        background-color: rgba(255,255,255,0.0);
+    }
 }
 
 /* iPad */
@@ -30,5 +92,25 @@
 /* Phones */
 @media all and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
 
+    div#research-section {
+	    margin: 0 auto;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background-size: 100% 100%;
+	    height: auto;
+        min-height: 100vh;
+    }
 
+    div#chart-container-1 {
+        padding-top: 10vh;
+        display: block;
+        width: 90vw;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    div#values-icons {
+        padding-top: 10vh;
+        display: block;
+        vertical-align: top;
+        background-color: rgba(255,255,255,0.0);
+    }
 }
