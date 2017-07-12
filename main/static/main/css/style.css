@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-    margin: 0 auto;	
+    margin: 0;	
+    padding: 0;
 	font-family: Tahoma,Geneva,Arial,sans-serif !important;
     font-size:9px;
     -webkit-background-size: cover;
@@ -19,8 +20,8 @@ body {
 div.menu-nav {
  	overflow: hidden;
     background-color: white;
+    width: 100vw;
 	height: 10vh;
-	width: 100%;
 	position: fixed;
 	z-index: 999;
 	top: 0;
@@ -55,14 +56,13 @@ div#about-section {
 	background-size: 100% 100%;
     min-height: 100vh;
 	height: auto;
-	width: 100vw;
     color: #cfc8c5;
 }
 
 div#container {
+    width: 100%;
     padding-top: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-bottom: 10vh;
 }
 
 div#title {
@@ -85,7 +85,7 @@ div#values-icons {
 }
 
 div#chart { 
-    width: 35vw;
+    width: 30vw;
     min-width: 420px;
     height: auto;
 } 
@@ -156,12 +156,6 @@ div#research-section {
 	background-size: 100% 100%;
 	height: auto;
     min-height: 100vh;
-	width: 100%;
-}
-
-div#subjects {
-    margin: 0 auto;
-    display: block;
 }
 
 div#subject {
@@ -173,8 +167,6 @@ div#subject {
 
 div#contact-section {
 	margin: 0 auto; 
-    padding-top:  10vh;
-    padding-bottom: 10vh;
     height: 100vh;
     min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
