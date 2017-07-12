@@ -14,10 +14,12 @@ body {
     opacity: 1;
 }
 
+/* Menu */
+
 div.menu-nav {
  	overflow: hidden;
     background-color: white;
-	height: 5vw;
+	height: 10vh;
 	width: 100%;
 	position: fixed;
 	z-index: 999;
@@ -25,37 +27,58 @@ div.menu-nav {
 	opacity: 1;
 }
 
+
+table#standard-links {
+	float: right;
+	height: 10vh;
+}
+
+tr td#standard-link {
+	color: black !important;
+	padding: 10px 20px;
+}
+
+div#logo {
+	float: left;
+	padding: 10px 20px;
+}
+
+#logo img {
+	height: 8vh;
+}
+
+/* About section */
+
 div#about-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-    min-height: 60vw;
+    min-height: 100vh;
 	height: auto;
-	width: 100%;
+	width: 100vw;
     color: #cfc8c5;
 }
 
 div#container {
-    padding-top: 5vw;
+    padding-top: 10vh;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 
 div#title {
-    display: block;
     min-width: 420px;
-    padding: 2vw;
+    padding: 35px;
 }
 
 div#chart-container-1 {
-    padding: 2vw;
+    padding: 35px;
     display: inline-block;
     background-color: rgba(255,255,255,0.0);
     height: auto;
 }
 
 div#values-icons {
-    padding: 2vw;
+    padding: 35px;
     display: inline-block;
     background-color: rgba(255,255,255,0.0);
     height: auto;
@@ -84,15 +107,15 @@ div#icons {
 }
 
 #icons table td {
-    padding: 2.5vw;
+    padding: 35px 35px;
 }
 
 #icons img {
     min-width: 65px;
     min-height: 65px;
-    width: 5vw;
-    height: 5vw;
-    border-radius: 5vw;
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -100,31 +123,39 @@ div#icons {
 }
 
 #icons img:hover {
-    width: 5vw;
-    height: 5vw;
-    border-radius: 5vw;
+    min-width: 65px;
+    min-height: 65px;
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
     transform: rotate(360deg);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0);
 }
 
+/* Separator */
+
 div#separator {
-	height: 5vw;
+	height: 10vh;
+    min-height: 65px;
 	margin: 0 auto;
 }
 
 #separator img {
-    width: 5vw;
-    height: 5vw;
-    border-radius: 5vw;
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
 }
+
+/* Research section */
 
 div#research-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-	height: 60vw;
+	height: auto;
+    min-height: 100vh;
 	width: 100%;
 }
 
@@ -134,22 +165,23 @@ div#subjects {
 }
 
 div#subject {
-    padding-top: 8vw;
+    padding-top: 10vh;
     display: block;
 }
 
-/* Menu */
+/* Contact section */
 
 div#contact-section {
 	margin: 0 auto; 
-    padding-top:  5vw;
-    padding-bottom: 10vw;
-    height: 50vw;
+    padding-top:  10vh;
+    padding-bottom: 10vh;
+    height: 100vh;
+    min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
 }
 
 div#contact-section h2 {
-    padding-bottom: 5vw;
+    padding-bottom: 5vh;
 }
 
 div#contact-section table {
@@ -157,12 +189,14 @@ div#contact-section table {
     margin-right: auto;
 }
 
+/* Footer */
+
 .footer {
     position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1vw;
+    padding: 1vh 0;
     background-color: #efefef;
     opacity: 0.95;
     text-align: center;
@@ -177,25 +211,7 @@ div#contact-section table {
     display: inline-block;
 }
 
-table#standard-links {
-	float: right;
-	height: 5vw;
-}
-
-tr td#standard-link {
-	color: black !important;
-	padding: 2vw;
-}
-
-div#logo {
-	float: left;
-	padding: 0.8vw;
-	padding-left: 2vw;
-}
-
-#logo img {
-	height: 4vw;
-}
+/* Common */
 
 a {
 	text-decoration: none !important;
