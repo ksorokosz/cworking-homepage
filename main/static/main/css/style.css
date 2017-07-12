@@ -60,7 +60,6 @@ div#about-section {
 }
 
 div#container {
-    width: 100%;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -179,6 +178,10 @@ div#contact-section h2 {
 div#contact-section table {
     margin-left: auto; 
     margin-right: auto;
+}
+
+div#contact-section table tr td {
+    padding: 5px;
 }
 
 /* Footer */
