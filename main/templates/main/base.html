@@ -10,16 +10,6 @@
 {% load staticfiles %}
 
 <!-- Grab jQuery from a CDN, fall back to local if necessary -->
-<script type="text/javascript">
-var interests_data = [ '{% blocktrans %}web design{% endblocktrans %}', 
-                       '{% blocktrans %}embedded\nprogramming{% endblocktrans %}', 
-                       '{% blocktrans %}machine\nlearning{% endblocktrans %}', 
-                       '{% blocktrans %}digital signal\nprocessing{% endblocktrans %}', 
-                       '{% blocktrans %}process\nautomatization{% endblocktrans %}',
-                       '{% blocktrans %}teaching{% endblocktrans %}'
-                     ]
-</script>
-
 <script type="text/javascript" src="{% static 'main/javascript/jquery-1.11.0.js' %}"></script>
 <script type="text/javascript" src="{% static 'main/javascript/jquery-ui.js' %}"></script>
 <script type="text/javascript" src="{% static 'bootstrap/javascript/bootstrap.min.js' %}"></script>

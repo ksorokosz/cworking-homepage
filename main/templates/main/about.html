@@ -2,15 +2,10 @@
 {% load staticfiles %}
 
 <div id="container" class="container-fluid">
-    <div id="title">
-        <h1>Kamil Sorokosz</h1>
-        <h4>{% blocktrans %}Software Engineer{% endblocktrans %}</h4>
-    </div>
-
     <div id="chart-container-1">
-        <h3>{% blocktrans %}Interests{% endblocktrans %}</h3>
+        <h3>{% blocktrans %}Competences{% endblocktrans %}</h3>
         <div id="chart">
-            <canvas id="interests"></canvas>
+            {% include "main/competences.html" %}
         </div>
     </div>
     <div id="values-icons">
