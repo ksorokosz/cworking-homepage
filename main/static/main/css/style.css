@@ -17,7 +17,7 @@ body {
 div.menu-nav {
  	overflow: hidden;
     background-color: white;
-	height: 70px;
+	height: 5vw;
 	width: 100%;
 	position: fixed;
 	z-index: 999;
@@ -29,42 +29,48 @@ div#about-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-	height: 60vw;
+    min-height: 60vw;
+	height: auto;
 	width: 100%;
     color: #cfc8c5;
 }
 
-#about-section .title {
-    padding-top: 95px;
+div#container {
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
-div#container {
-    padding-top: 15px;
+div#title {
+    display: block;
+    min-width: 420px;
+    padding: 2vw;
 }
 
 div#chart-container-1 {
+    padding: 2vw;
     display: inline-block;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    background-color: rgba(255,255,255,0.0);
+    height: auto;
+}
+
+div#values-icons {
+    padding: 2vw;
+    display: inline-block;
     background-color: rgba(255,255,255,0.0);
     height: auto;
 }
 
 div#chart { 
     width: 35vw;
+    min-width: 420px;
     height: auto;
 } 
 
-div#values-icons {
-    display: inline-block;
-    padding-right: 5vw;
-    padding-left: 5vw;
-    background-color: rgba(255,255,255,0.0);
-    height: auto;
-}
-
 div#icons {
     width: 30vw;
+    min-width: 420px;
+    min-height: 260px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -72,6 +78,8 @@ div#icons {
 
 #icons table {
     text-align: center;
+    min-width: 420px;
+    min-height: 260px;
     margin: 0 auto;
 }
 
@@ -80,6 +88,8 @@ div#icons {
 }
 
 #icons img {
+    min-width: 65px;
+    min-height: 65px;
     width: 5vw;
     height: 5vw;
     border-radius: 5vw;
@@ -114,7 +124,7 @@ div#research-section {
 	margin: 0 auto;
 	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	background-size: 100% 100%;
-	height: 100vw;
+	height: 60vw;
 	width: 100%;
 }
 
@@ -124,7 +134,7 @@ div#subjects {
 }
 
 div#subject {
-    padding-top: 80px;
+    padding-top: 8vw;
     display: block;
 }
 
@@ -169,22 +179,22 @@ div#contact-section table {
 
 table#standard-links {
 	float: right;
-	height: 70px;
+	height: 5vw;
 }
 
 tr td#standard-link {
 	color: black !important;
-	padding: 25px;
+	padding: 2vw;
 }
 
 div#logo {
 	float: left;
-	padding: 10px;
-	padding-left: 25px;
+	padding: 0.8vw;
+	padding-left: 2vw;
 }
 
 #logo img {
-	height: 55px;
+	height: 4vw;
 }
 
 a {
@@ -193,9 +203,9 @@ a {
 }
 
 .small-icon {
-    width: 20px;
-    height: 20px;
-    border-radius: 3px;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 0.3vw;
 }
 
 a:hover, a:visited, a:link, a:active
