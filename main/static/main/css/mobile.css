@@ -1,18 +1,27 @@
 /*(ldpi) Android*/
 @media only screen and (-webkit-device-pixel-ratio:.75){
 
+    div#research-section {
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+    }
+
 }
 
 /*(mdpi) Android*/
 @media only screen and (min-device-width : 480px) and (max-device-width : 800px) {
 
+    div#research-section {
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+    }
 
 }
 
 /*(hdpi) Android*/
 @media only screen and (-webkit-device-pixel-ratio:1.5){
 
-
+    div#research-section {
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+    }
 }
 
 /* iPad */
@@ -29,6 +38,10 @@
 
 /* Phones */
 @media all and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    div#research-section {
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+    }
 
 
 }

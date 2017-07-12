@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 22:09+0200\n"
+"POT-Creation-Date: 2017-07-12 22:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,38 +40,34 @@ msgid "Message"
 msgstr "Wiadomość"
 
 #: main/templates/main/about.html:6
-msgid "Software Engineer"
-msgstr "Inżynier Programista"
+msgid "Competences"
+msgstr "Kompetencje"
 
-#: main/templates/main/about.html:11
-msgid "Interests"
-msgstr "Zainteresowania"
-
-#: main/templates/main/about.html:17
+#: main/templates/main/about.html:12
 msgid "Values"
 msgstr "Wartości"
 
-#: main/templates/main/about.html:22 main/templates/main/about.html:24
+#: main/templates/main/about.html:17 main/templates/main/about.html:19
 msgid "Cooperation"
 msgstr "Współpraca"
 
-#: main/templates/main/about.html:27 main/templates/main/about.html:29
+#: main/templates/main/about.html:22 main/templates/main/about.html:24
 msgid "Precision"
 msgstr "Precyzja"
 
-#: main/templates/main/about.html:32 main/templates/main/about.html:34
+#: main/templates/main/about.html:27 main/templates/main/about.html:29
 msgid "Knowledge"
 msgstr "Wiedza"
 
-#: main/templates/main/about.html:39 main/templates/main/about.html:41
+#: main/templates/main/about.html:34 main/templates/main/about.html:36
 msgid "Patience"
 msgstr "Cierpliwość"
 
-#: main/templates/main/about.html:44 main/templates/main/about.html:46
+#: main/templates/main/about.html:39 main/templates/main/about.html:41
 msgid "Communication"
 msgstr "Komunikacja"
 
-#: main/templates/main/about.html:49 main/templates/main/about.html:51
+#: main/templates/main/about.html:44 main/templates/main/about.html:46
 msgid "Trust"
 msgstr "Zaufanie"
 
@@ -79,39 +75,40 @@ msgstr "Zaufanie"
 msgid "Cworking++"
 msgstr "Cworking++"
 
-#: main/templates/main/base.html:14
-msgid "web design"
-msgstr "projektowanie\\nstron www"
-
-#: main/templates/main/base.html:15
-msgid "embedded\\nprogramming"
-msgstr "programowanie\\nembedded"
-
-#: main/templates/main/base.html:16
-msgid "machine\\nlearning"
-msgstr "uczenie\\nmaszynowe"
-
-#: main/templates/main/base.html:17
-msgid "digital signal\\nprocessing"
-msgstr "cyfrowe przetwarzanie\\nsygnałów"
-
-#: main/templates/main/base.html:18
-msgid "process\\nautomatization"
-msgstr "automatyzacja\\nprocesów"
-
-#: main/templates/main/base.html:19
-msgid "teaching"
-msgstr "kształcenie"
-
-#: main/templates/main/base.html:43
+#: main/templates/main/base.html:33
 msgid "Cworking++ project source code"
 msgstr "Kod projektu Cworking++"
 
-#: main/templates/main/contact.html:4
+#: main/templates/main/competences.html:5
+#: main/templates/main/competences.html:6
+msgid "embedded programming"
+msgstr "programowanie embedded"
+
+#: main/templates/main/competences.html:8
+#: main/templates/main/competences.html:9
+msgid "machine learning"
+msgstr "uczenie maszynowe"
+
+#: main/templates/main/competences.html:11
+#: main/templates/main/competences.html:12
+msgid "digital signal processing"
+msgstr "cyfrowe przetwarzanie sygnałów"
+
+#: main/templates/main/competences.html:14
+#: main/templates/main/competences.html:15
+msgid "process automatization"
+msgstr "automatyzacja procesów"
+
+#: main/templates/main/competences.html:17
+#: main/templates/main/competences.html:18
+msgid "teaching"
+msgstr "kształcenie"
+
+#: main/templates/main/contact.html:5
 msgid "feel free to contact me..."
 msgstr "skontaktuj się ze mną..."
 
-#: main/templates/main/contact.html:9
+#: main/templates/main/contact.html:10
 msgid "Send"
 msgstr "Wyślij"
 
@@ -154,3 +151,4 @@ msgstr "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
 #: main/templates/main/research.html:26
 msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
 msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"
+
