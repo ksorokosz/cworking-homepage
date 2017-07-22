@@ -19,8 +19,8 @@ msgstr ""
 
 #: cworking/settings.py:133
 msgid "Polish"
-msgstr "Polski"
+msgstr "Polish"
 
 #: cworking/settings.py:134
 msgid "English"
-msgstr "Angielski"
+msgstr "English"

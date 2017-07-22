@@ -21,8 +21,8 @@ msgstr ""
 
 #: cworking/settings.deploy.py:133 cworking/settings.py:133
 msgid "Polish"
-msgstr ""
+msgstr "Polski"
 
 #: cworking/settings.deploy.py:134 cworking/settings.py:134
 msgid "English"
-msgstr ""
+msgstr "Angielski"

@@ -17,36 +17,13 @@ body {
 
 /* Menu */
 
-div.menu-nav {
- 	overflow: hidden;
-    background-color: white;
-    width: 100vw;
-	height: 10vh;
-    min-height: 40px;
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	opacity: 1;
+.navbar-brand > img {
+	height: 100%;
+    vertical-align: middle;
 }
 
-
-table#standard-links {
-	float: right;
-	height: 10vh;
-}
-
-tr td#standard-link {
-	color: black !important;
-	padding: 10px 20px;
-}
-
-div#logo {
-	float: left;
-	padding: 10px 20px;
-}
-
-#logo img {
-	height: 8vh;
+.navbar {
+    margin-bottom: 0 !important;
 }
 
 /* About section */
@@ -167,15 +144,23 @@ div#icons {
 /* Separator */
 
 div#separator {
+    display: inline-block;
 	height: 10vh;
     min-height: 65px;
 	margin: 0 auto;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 #separator img {
     width: 65px;
     height: 65px;
     border-radius: 65px;
+    vertical-align: middle;
 }
 
 /* Research section */

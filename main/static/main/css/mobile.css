@@ -3,7 +3,7 @@
 
     div#about-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
         min-height: 100vh;
 	    height: auto;
@@ -12,7 +12,7 @@
     
     div#research-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
 	    height: auto;
         min-height: 100vh;
@@ -39,7 +39,7 @@
 
     div#about-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
         min-height: 100vh;
 	    height: auto;
@@ -48,7 +48,7 @@
 
     div#research-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
 	    height: auto;
         min-height: 100vh;
@@ -74,7 +74,7 @@
 
     div#about-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
         min-height: 100vh;
 	    height: auto;
@@ -83,7 +83,7 @@
 
     div#research-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
 	    background-size: 100% 100%;
 	    height: auto;
         min-height: 100vh;
