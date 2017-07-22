@@ -37,6 +37,11 @@ div#about-section {
     color: #cfc8c5;
 }
 
+.comptency {
+    text-align: left;
+    padding: 10px;
+}
+
 div#container {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -71,40 +76,45 @@ div#chart {
     filter: grayscale(100%);
 }
 
-.chart .orange {
+.orange {
     background: #ff9e2c;
     border: 1px solid #ff9e2c;
     @include background-image(linear-gradient(lighten(#ff9e2c, 10%), #ff9e2c 70%));
 }
 
-.chart  .teal { 
+.teal { 
     background: #4ecdc4;
     border: 1px solid #4ecdc4;
     @include background-image(linear-gradient(lighten(#4ecdc4, 10%), #4ecdc4 70%));
 }
 
-.chart  .salmon { 
+.salmon { 
     background: #ff6b6b; 
     border: 1px solid #ff6b6b;
     @include background-image(linear-gradient(lighten(#ff6b6b, 10%), #ff6b6b 70%));
 }
 
-.chart  .lime { 
+.lime { 
     background: #97f464;
     border: 1px solid #97f464;
     @include background-image(linear-gradient(lighten(#97f464, 10%), #97f464 70%));
 }
 
-.chart  .gray { 
+.gray { 
     background: #999;
     border: 1px solid #999;
     @include background-image(linear-gradient(lighten(#999, 10%), #999 70%));
 }
 
-.chart  .grape { 
+.grape { 
     background: #ab64f4;
     border: 1px solid #ab64f4;
     @include background-image(linear-gradient(lighten(#ab64f4, 10%), #ab64f4 70%));
+}
+
+.transparent { 
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 3px solid #ab64f4;
 }
 
 .chart .chart-label {
@@ -136,9 +146,10 @@ div#icons {
 }
 
 #icons img {
-    width: 5vw;
+    width: 8vw;
     height: auto;
-    border-radius: 5vw;
+    border-radius: 8vw;
+    border: solid 0.25vw #ff5400;
 }
 
 /* Separator */

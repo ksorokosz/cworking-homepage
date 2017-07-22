@@ -3,50 +3,15 @@
 
 <div id="container" class="container-fluid">
     <div id="chart-container-1">
-        <h3>{% blocktrans %}Competences{% endblocktrans %}</h3>
+        <h3 class="noselect">{% blocktrans %}Competences{% endblocktrans %}</h3>
         <div id="chart">
             {% include "main/competences.html" %}
         </div>
     </div>
     <div id="values-icons">
-        <h3>{% blocktrans %}Values{% endblocktrans %}</h3>
+        <h3 class="noselect">{% blocktrans %}Values{% endblocktrans %}</h3>
         <div id="icons">
-            <table>
-            <tr>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Cooperate{% endblocktrans %}" 
-                         src="{% static 'main/css/images/cooperation.png' %}" 
-                         alt="{% blocktrans %}Cooperation{% endblocktrans %}" border="0" /> 
-                </td>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Be accurate{% endblocktrans %}" 
-                         src="{% static 'main/css/images/precision.png' %}" 
-                         alt="{% blocktrans %}Precision{% endblocktrans %}" border="0" /> 
-                </td>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Use your knowledge{% endblocktrans %}" 
-                         src="{% static 'main/css/images/knowledge.png' %}" 
-                         alt="{% blocktrans %}Knowledge{% endblocktrans %}" border="0" /> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Be patient{% endblocktrans %}" 
-                         src="{% static 'main/css/images/patience.png' %}" 
-                         alt="{% blocktrans %}Patience{% endblocktrans %}" border="0" /> 
-                </td>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Communicate{% endblocktrans %}" 
-                         src="{% static 'main/css/images/communication.png' %}" 
-                         alt="{% blocktrans %}Communication{% endblocktrans %}" border="0" /> 
-                </td>
-                <td>
-                    <img data-toggle="tooltip" title="{% blocktrans %}Trust others and yourself{% endblocktrans %}" 
-                         src="{% static 'main/css/images/trust.png' %}" 
-                         alt="{% blocktrans %}Trust{% endblocktrans %}" border="0" /> 
-                </td>
-            </tr>
-            </table>
+            {% include "main/values.html" %}
         </div>
     </div>
 </div>
