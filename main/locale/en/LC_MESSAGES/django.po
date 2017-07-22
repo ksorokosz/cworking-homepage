@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-22 16:29+0200\n"
+"POT-Creation-Date: 2017-07-22 23:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,54 +45,6 @@ msgstr ""
 msgid "Values"
 msgstr ""
 
-#: main/templates/main/about.html:17
-msgid "Cooperate"
-msgstr ""
-
-#: main/templates/main/about.html:19
-msgid "Cooperation"
-msgstr ""
-
-#: main/templates/main/about.html:22
-msgid "Be accurate"
-msgstr ""
-
-#: main/templates/main/about.html:24
-msgid "Precision"
-msgstr ""
-
-#: main/templates/main/about.html:27
-msgid "Use your knowledge"
-msgstr ""
-
-#: main/templates/main/about.html:29
-msgid "Knowledge"
-msgstr ""
-
-#: main/templates/main/about.html:34
-msgid "Be patient"
-msgstr ""
-
-#: main/templates/main/about.html:36
-msgid "Patience"
-msgstr ""
-
-#: main/templates/main/about.html:39
-msgid "Communicate"
-msgstr ""
-
-#: main/templates/main/about.html:41
-msgid "Communication"
-msgstr ""
-
-#: main/templates/main/about.html:44
-msgid "Trust others and yourself"
-msgstr ""
-
-#: main/templates/main/about.html:46
-msgid "Trust"
-msgstr ""
-
 #: main/templates/main/base.html:8
 msgid "Cworking++"
 msgstr ""
@@ -102,28 +54,123 @@ msgid "Cworking++ project source code"
 msgstr ""
 
 #: main/templates/main/competences.html:5
-#: main/templates/main/competences.html:6
+#: main/templates/main/competences.html:7
 msgid "digital signal processing"
 msgstr ""
 
-#: main/templates/main/competences.html:8
-#: main/templates/main/competences.html:9
-msgid "process automatization"
+#: main/templates/main/competences.html:10
+msgid "6+ years of experience in multimedia signal processing"
 msgstr ""
 
 #: main/templates/main/competences.html:11
+msgid ""
+"commerically used systems for speech and audio signals analysis and "
+"enhancement"
+msgstr ""
+
 #: main/templates/main/competences.html:12
-msgid "embedded programming"
+msgid "practitioned speech recognition and synthesis technologies"
+msgstr ""
+
+#: main/templates/main/competences.html:13
+msgid "practitioned video steganography and encryption"
 msgstr ""
 
 #: main/templates/main/competences.html:14
-#: main/templates/main/competences.html:15
-msgid "machine learning"
+msgid "international publications in the area of signal processing"
 msgstr ""
 
 #: main/templates/main/competences.html:17
-#: main/templates/main/competences.html:18
-msgid "teaching"
+#: main/templates/main/competences.html:19
+msgid "data analysis"
+msgstr ""
+
+#: main/templates/main/competences.html:22
+msgid "6+ years of experience in data analysis"
+msgstr ""
+
+#: main/templates/main/competences.html:23
+msgid "anomaly detection in thousands of data from annotation services"
+msgstr ""
+
+#: main/templates/main/competences.html:24
+msgid "statistical analysis practitioned in python, Matlab and MS Excel"
+msgstr ""
+
+#: main/templates/main/competences.html:25
+msgid "appropriate mathematical background"
+msgstr ""
+
+#: main/templates/main/competences.html:28
+#: main/templates/main/competences.html:30
+msgid "process automatization"
+msgstr ""
+
+#: main/templates/main/competences.html:33
+msgid "3+ years of experience in process automatization"
+msgstr ""
+
+#: main/templates/main/competences.html:34
+msgid "automatized production of audio data for machine learning purposes"
+msgstr ""
+
+#: main/templates/main/competences.html:35
+msgid "dealing with 'muda' and ineffectiveness in a development team"
+msgstr ""
+
+#: main/templates/main/competences.html:36
+msgid "using webservices for simplifying work"
+msgstr ""
+
+#: main/templates/main/competences.html:37
+msgid "mentoring junior developers"
+msgstr ""
+
+#: main/templates/main/competences.html:38
+msgid "practitioned test driven development and agile methodologies"
+msgstr ""
+
+#: main/templates/main/competences.html:41
+#: main/templates/main/competences.html:43
+msgid "system design"
+msgstr ""
+
+#: main/templates/main/competences.html:46
+msgid ""
+"developing and maintening commercial systems intensively used by non-"
+"engineers"
+msgstr ""
+
+#: main/templates/main/competences.html:47
+msgid ""
+"developing network, distributed services for data analysis and processing"
+msgstr ""
+
+#: main/templates/main/competences.html:48
+msgid "practitioned parallelization and multithreading"
+msgstr ""
+
+#: main/templates/main/competences.html:49
+msgid ""
+"practitioned programming on different platforms: ARM Cortex M3, Linux, "
+"Windows"
+msgstr ""
+
+#: main/templates/main/competences.html:52
+#: main/templates/main/competences.html:54
+msgid "education"
+msgstr ""
+
+#: main/templates/main/competences.html:57
+msgid "conducted programming courses for children and teachers"
+msgstr ""
+
+#: main/templates/main/competences.html:58
+msgid "prepared C++ tutorial for beginners and intermediate level"
+msgstr ""
+
+#: main/templates/main/competences.html:59
+msgid "active coursera member: leadership, data science, programming"
 msgstr ""
 
 #: main/templates/main/contact.html:5
@@ -180,4 +227,52 @@ msgstr ""
 
 #: main/templates/main/research.html:26
 msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
+msgstr ""
+
+#: main/templates/main/values.html:7
+msgid "Cooperate"
+msgstr ""
+
+#: main/templates/main/values.html:9
+msgid "Cooperation"
+msgstr ""
+
+#: main/templates/main/values.html:12
+msgid "Be accurate"
+msgstr ""
+
+#: main/templates/main/values.html:14
+msgid "Precision"
+msgstr ""
+
+#: main/templates/main/values.html:17
+msgid "Use your knowledge"
+msgstr ""
+
+#: main/templates/main/values.html:19
+msgid "Knowledge"
+msgstr ""
+
+#: main/templates/main/values.html:24
+msgid "Be patient"
+msgstr ""
+
+#: main/templates/main/values.html:26
+msgid "Patience"
+msgstr ""
+
+#: main/templates/main/values.html:29
+msgid "Communicate"
+msgstr ""
+
+#: main/templates/main/values.html:31
+msgid "Communication"
+msgstr ""
+
+#: main/templates/main/values.html:34
+msgid "Trust others and yourself"
+msgstr ""
+
+#: main/templates/main/values.html:36
+msgid "Trust"
 msgstr ""

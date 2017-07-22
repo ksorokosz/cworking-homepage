@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-22 16:29+0200\n"
+"POT-Creation-Date: 2017-07-22 23:41+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,58 +47,6 @@ msgstr "Kompetencje"
 msgid "Values"
 msgstr "Wartości"
 
-#: main/templates/main/about.html:17
-#, fuzzy
-#| msgid "Cooperation"
-msgid "Cooperate"
-msgstr "Współpraca"
-
-#: main/templates/main/about.html:19
-msgid "Cooperation"
-msgstr "Współpraca"
-
-#: main/templates/main/about.html:22
-msgid "Be accurate"
-msgstr ""
-
-#: main/templates/main/about.html:24
-msgid "Precision"
-msgstr "Precyzja"
-
-#: main/templates/main/about.html:27
-msgid "Use your knowledge"
-msgstr ""
-
-#: main/templates/main/about.html:29
-msgid "Knowledge"
-msgstr "Wiedza"
-
-#: main/templates/main/about.html:34
-msgid "Be patient"
-msgstr ""
-
-#: main/templates/main/about.html:36
-msgid "Patience"
-msgstr "Cierpliwość"
-
-#: main/templates/main/about.html:39
-#, fuzzy
-#| msgid "Communication"
-msgid "Communicate"
-msgstr "Komunikacja"
-
-#: main/templates/main/about.html:41
-msgid "Communication"
-msgstr "Komunikacja"
-
-#: main/templates/main/about.html:44
-msgid "Trust others and yourself"
-msgstr ""
-
-#: main/templates/main/about.html:46
-msgid "Trust"
-msgstr "Zaufanie"
-
 #: main/templates/main/base.html:8
 msgid "Cworking++"
 msgstr "Cworking++"
@@ -108,29 +56,134 @@ msgid "Cworking++ project source code"
 msgstr "Kod projektu Cworking++"
 
 #: main/templates/main/competences.html:5
-#: main/templates/main/competences.html:6
+#: main/templates/main/competences.html:7
 msgid "digital signal processing"
 msgstr "cyfrowe przetwarzanie sygnałów"
 
-#: main/templates/main/competences.html:8
-#: main/templates/main/competences.html:9
+#: main/templates/main/competences.html:10
+msgid "6+ years of experience in multimedia signal processing"
+msgstr "6+ lat doświadczeń w przetwarzaniu sygnałów multimedialnych"
+
+#: main/templates/main/competences.html:11
+msgid ""
+"commerically used systems for speech and audio signals analysis and "
+"enhancement"
+msgstr "komercyjne systemy do analizy i poprawy sygnałów mowy i audio"
+
+#: main/templates/main/competences.html:12
+msgid "practitioned speech recognition and synthesis technologies"
+msgstr "praktyczna znajomość technologii rozpoznawania i syntezy mowy"
+
+#: main/templates/main/competences.html:13
+msgid "practitioned video steganography and encryption"
+msgstr "praktyczna znajomość steganografii i szyfrowania wideo"
+
+#: main/templates/main/competences.html:14
+msgid "international publications in the area of signal processing"
+msgstr ""
+"publikacje w międzynarodowych czasopismach na temat przetwarzania sygnału "
+"mowy"
+
+#: main/templates/main/competences.html:17
+#: main/templates/main/competences.html:19
+msgid "data analysis"
+msgstr "analiza danych"
+
+#: main/templates/main/competences.html:22
+msgid "6+ years of experience in data analysis"
+msgstr "6+ lat doświadczeń w analizie danych"
+
+#: main/templates/main/competences.html:23
+msgid "anomaly detection in thousands of data from annotation services"
+msgstr "detekcja anomalii pośród tysięcy annotacji"
+
+#: main/templates/main/competences.html:24
+msgid "statistical analysis practitioned in python, Matlab and MS Excel"
+msgstr "analiza statystyczna w python, Matlab i MS Excel"
+
+#: main/templates/main/competences.html:25
+msgid "appropriate mathematical background"
+msgstr "odpowiednie wykształcenie matematyczne"
+
+#: main/templates/main/competences.html:28
+#: main/templates/main/competences.html:30
 msgid "process automatization"
 msgstr "automatyzacja procesów"
 
-#: main/templates/main/competences.html:11
-#: main/templates/main/competences.html:12
-msgid "embedded programming"
-msgstr "programowanie embedded"
+#: main/templates/main/competences.html:33
+msgid "3+ years of experience in process automatization"
+msgstr "3+ lat doświadczeń w pracach nad automatyzacją procesów"
 
-#: main/templates/main/competences.html:14
-#: main/templates/main/competences.html:15
-msgid "machine learning"
-msgstr "uczenie maszynowe"
+#: main/templates/main/competences.html:34
+msgid "automatized production of audio data for machine learning purposes"
+msgstr "automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
 
-#: main/templates/main/competences.html:17
-#: main/templates/main/competences.html:18
-msgid "teaching"
-msgstr "kształcenie"
+#: main/templates/main/competences.html:35
+msgid "dealing with 'muda' and ineffectiveness in a development team"
+msgstr "usuwanie barier i marnotrastwa w zespole rozwijającym oprogramowanie"
+
+#: main/templates/main/competences.html:36
+msgid "using webservices for simplifying work"
+msgstr "użycie technologii webowej do upraszczania codziennej pracy"
+
+#: main/templates/main/competences.html:37
+msgid "mentoring junior developers"
+msgstr "wsparcie młodszych programistów"
+
+#: main/templates/main/competences.html:38
+msgid "practitioned test driven development and agile methodologies"
+msgstr "praktyczna znajomość metodyk zwinnych i programowania TDD"
+
+#: main/templates/main/competences.html:41
+#: main/templates/main/competences.html:43
+msgid "system design"
+msgstr "projektowanie systemów"
+
+#: main/templates/main/competences.html:46
+msgid ""
+"developing and maintening commercial systems intensively used by non-"
+"engineers"
+msgstr ""
+"rozwój i utrzymywanie systemów intensywnie wykorzystywanych przez nie-"
+"inżynierów"
+
+#: main/templates/main/competences.html:47
+msgid ""
+"developing network, distributed services for data analysis and processing"
+msgstr ""
+"rozwój i projektowanie sieciowych, rozproszonych serwisów do analizy i "
+"przetwarzania danych"
+
+#: main/templates/main/competences.html:48
+msgid "practitioned parallelization and multithreading"
+msgstr "praktyczna znajomość programowania wielowątkowego i wieloprocesowego"
+
+#: main/templates/main/competences.html:49
+msgid ""
+"practitioned programming on different platforms: ARM Cortex M3, Linux, "
+"Windows"
+msgstr ""
+"praktyczna znajmość programowania na platformach: ARM Cortex M3, Linux, "
+"Windows"
+
+#: main/templates/main/competences.html:52
+#: main/templates/main/competences.html:54
+msgid "education"
+msgstr "edukacja"
+
+#: main/templates/main/competences.html:57
+msgid "conducted programming courses for children and teachers"
+msgstr "przeprowadzenie kursów programowania dla dzieci i nauczycieli"
+
+#: main/templates/main/competences.html:58
+msgid "prepared C++ tutorial for beginners and intermediate level"
+msgstr "przygotowanie tutoriala C++ dla początkujących i średniozaawansowanych"
+
+#: main/templates/main/competences.html:59
+msgid "active coursera member: leadership, data science, programming"
+msgstr ""
+"aktywny członek platformy edukacyjnej coursera: zarządzanie, uczenie "
+"maszynowe, programowanie"
 
 #: main/templates/main/contact.html:5
 msgid "feel free to contact me..."
@@ -188,3 +241,51 @@ msgstr "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
 #: main/templates/main/research.html:26
 msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
 msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"
+
+#: main/templates/main/values.html:7
+msgid "Cooperate"
+msgstr "Współpracuj"
+
+#: main/templates/main/values.html:9
+msgid "Cooperation"
+msgstr "Współpraca"
+
+#: main/templates/main/values.html:12
+msgid "Be accurate"
+msgstr "Bądź dokładny"
+
+#: main/templates/main/values.html:14
+msgid "Precision"
+msgstr "Precyzja"
+
+#: main/templates/main/values.html:17
+msgid "Use your knowledge"
+msgstr "Używaj rozumu"
+
+#: main/templates/main/values.html:19
+msgid "Knowledge"
+msgstr "Wiedza"
+
+#: main/templates/main/values.html:24
+msgid "Be patient"
+msgstr "Bądź cierpliwy"
+
+#: main/templates/main/values.html:26
+msgid "Patience"
+msgstr "Cierpliwość"
+
+#: main/templates/main/values.html:29
+msgid "Communicate"
+msgstr "Rozmawiaj"
+
+#: main/templates/main/values.html:31
+msgid "Communication"
+msgstr "Komunikacja"
+
+#: main/templates/main/values.html:34
+msgid "Trust others and yourself"
+msgstr "Ufaj innym i sobie"
+
+#: main/templates/main/values.html:36
+msgid "Trust"
+msgstr "Zaufanie"

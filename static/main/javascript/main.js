@@ -19,4 +19,8 @@ $(document).ready(function() {
     $("#footer-button").click(function() { 
         $(".footer").toggle();
     });
+
+    $(".clickable").on("click", function() {
+        $(this).next().slideToggle();
+    });
 });

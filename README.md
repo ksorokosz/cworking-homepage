@@ -9,3 +9,7 @@ Images:
 4) https://pixabay.com/en/hourglass-time-clock-counting-1614705/
 5) https://pixabay.com/en/chat-icon-communication-2218345/
 6) https://pixabay.com/en/possible-impossible-opportunity-2499888/
+
+Fonts:
+
+1) https://fonts.google.com/specimen/Jura?selection.family=Jura|Lobster
