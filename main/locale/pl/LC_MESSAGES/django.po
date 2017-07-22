@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-12 22:56+0200\n"
+"POT-Creation-Date: 2017-07-22 16:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,27 +47,55 @@ msgstr "Kompetencje"
 msgid "Values"
 msgstr "Wartości"
 
-#: main/templates/main/about.html:17 main/templates/main/about.html:19
+#: main/templates/main/about.html:17
+#, fuzzy
+#| msgid "Cooperation"
+msgid "Cooperate"
+msgstr "Współpraca"
+
+#: main/templates/main/about.html:19
 msgid "Cooperation"
 msgstr "Współpraca"
 
-#: main/templates/main/about.html:22 main/templates/main/about.html:24
+#: main/templates/main/about.html:22
+msgid "Be accurate"
+msgstr ""
+
+#: main/templates/main/about.html:24
 msgid "Precision"
 msgstr "Precyzja"
 
-#: main/templates/main/about.html:27 main/templates/main/about.html:29
+#: main/templates/main/about.html:27
+msgid "Use your knowledge"
+msgstr ""
+
+#: main/templates/main/about.html:29
 msgid "Knowledge"
 msgstr "Wiedza"
 
-#: main/templates/main/about.html:34 main/templates/main/about.html:36
+#: main/templates/main/about.html:34
+msgid "Be patient"
+msgstr ""
+
+#: main/templates/main/about.html:36
 msgid "Patience"
 msgstr "Cierpliwość"
 
-#: main/templates/main/about.html:39 main/templates/main/about.html:41
+#: main/templates/main/about.html:39
+#, fuzzy
+#| msgid "Communication"
+msgid "Communicate"
+msgstr "Komunikacja"
+
+#: main/templates/main/about.html:41
 msgid "Communication"
 msgstr "Komunikacja"
 
-#: main/templates/main/about.html:44 main/templates/main/about.html:46
+#: main/templates/main/about.html:44
+msgid "Trust others and yourself"
+msgstr ""
+
+#: main/templates/main/about.html:46
 msgid "Trust"
 msgstr "Zaufanie"
 
@@ -81,23 +109,23 @@ msgstr "Kod projektu Cworking++"
 
 #: main/templates/main/competences.html:5
 #: main/templates/main/competences.html:6
-msgid "embedded programming"
-msgstr "programowanie embedded"
-
-#: main/templates/main/competences.html:8
-#: main/templates/main/competences.html:9
-msgid "machine learning"
-msgstr "uczenie maszynowe"
-
-#: main/templates/main/competences.html:11
-#: main/templates/main/competences.html:12
 msgid "digital signal processing"
 msgstr "cyfrowe przetwarzanie sygnałów"
 
-#: main/templates/main/competences.html:14
-#: main/templates/main/competences.html:15
+#: main/templates/main/competences.html:8
+#: main/templates/main/competences.html:9
 msgid "process automatization"
 msgstr "automatyzacja procesów"
+
+#: main/templates/main/competences.html:11
+#: main/templates/main/competences.html:12
+msgid "embedded programming"
+msgstr "programowanie embedded"
+
+#: main/templates/main/competences.html:14
+#: main/templates/main/competences.html:15
+msgid "machine learning"
+msgstr "uczenie maszynowe"
 
 #: main/templates/main/competences.html:17
 #: main/templates/main/competences.html:18
@@ -112,21 +140,29 @@ msgstr "skontaktuj się ze mną..."
 msgid "Send"
 msgstr "Wyślij"
 
-#: main/templates/main/menu-bar.html:11
+#: main/templates/main/menu-bar.html:25
 msgid "Blog"
 msgstr "Blog"
 
-#: main/templates/main/menu-bar.html:14
+#: main/templates/main/menu-bar.html:32
 msgid "About Me"
 msgstr "O mnie"
 
-#: main/templates/main/menu-bar.html:17
+#: main/templates/main/menu-bar.html:38
 msgid "Research & Development"
 msgstr "Badania i Rozwój"
 
-#: main/templates/main/menu-bar.html:20
+#: main/templates/main/menu-bar.html:45
 msgid "Contact"
 msgstr "Kontakt"
+
+#: main/templates/main/menu-bar.html:49
+msgid "Polish"
+msgstr "pl"
+
+#: main/templates/main/menu-bar.html:53
+msgid "English"
+msgstr "en"
 
 #: main/templates/main/research.html:6
 msgid "Therapy of Auditory Hallucinations"
@@ -142,7 +178,8 @@ msgstr "Automatyczna ocena jakości sygnału mowy"
 
 #: main/templates/main/research.html:18
 msgid "Speech Enhancement Hardware/Software Design"
-msgstr "Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
+msgstr ""
+"Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
 
 #: main/templates/main/research.html:22
 msgid "Data production automatization for machine learning"
@@ -151,4 +188,3 @@ msgstr "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
 #: main/templates/main/research.html:26
 msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
 msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"
-

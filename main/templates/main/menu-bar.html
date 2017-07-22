@@ -45,11 +45,11 @@
                 {% blocktrans %}Contact{% endblocktrans %}
             </a>
         </li>
-        <li>
+        <li class="{% if LANGUAGE_CODE == 'pl' %}active{% endif %}">
             <a href="{{ SITE_URL }}/pl/">{% blocktrans %}Polish{% endblocktrans %}
             </a>
         </li>
-        <li>
+        <li class="{% if LANGUAGE_CODE == 'en' %}active{% endif %}">
             <a href="{{ SITE_URL }}/en/">{% blocktrans %}English{% endblocktrans %}
             </a>
         </li>
