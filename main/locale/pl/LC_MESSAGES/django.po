@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-22 23:41+0200\n"
+"POT-Creation-Date: 2017-07-25 00:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgstr "Wartości"
 msgid "Cworking++"
 msgstr "Cworking++"
 
-#: main/templates/main/base.html:33
+#: main/templates/main/base.html:34
 msgid "Cworking++ project source code"
 msgstr "Kod projektu Cworking++"
 
@@ -104,11 +104,6 @@ msgstr "analiza statystyczna w python, Matlab i MS Excel"
 #: main/templates/main/competences.html:25
 msgid "appropriate mathematical background"
 msgstr "odpowiednie wykształcenie matematyczne"
-
-#: main/templates/main/competences.html:28
-#: main/templates/main/competences.html:30
-msgid "process automatization"
-msgstr "automatyzacja procesów"
 
 #: main/templates/main/competences.html:33
 msgid "3+ years of experience in process automatization"
@@ -180,6 +175,10 @@ msgid "prepared C++ tutorial for beginners and intermediate level"
 msgstr "przygotowanie tutoriala C++ dla początkujących i średniozaawansowanych"
 
 #: main/templates/main/competences.html:59
+msgid "blogging about programming and team management"
+msgstr "blog o programowaniu i zarządzaniu zespołem"
+
+#: main/templates/main/competences.html:60
 msgid "active coursera member: leadership, data science, programming"
 msgstr ""
 "aktywny członek platformy edukacyjnej coursera: zarządzanie, uczenie "
@@ -217,30 +216,40 @@ msgstr "pl"
 msgid "English"
 msgstr "en"
 
-#: main/templates/main/research.html:6
-msgid "Therapy of Auditory Hallucinations"
-msgstr "Terapia omamów słuchowych"
+#: main/templates/main/research.html:9
+msgid "Education #1"
+msgstr "Edukacja #1"
 
 #: main/templates/main/research.html:10
-msgid "Voice conversion and restoration"
-msgstr "Konwersja i rekonstrukcja głosu"
+msgid "Programming for non-engineers"
+msgstr "Programowanie dla nieinżynierów"
 
-#: main/templates/main/research.html:14
-msgid "Automated speech quality assurence"
-msgstr "Automatyczna ocena jakości sygnału mowy"
+#: main/templates/main/research.html:15
+msgid "process automatization"
+msgstr "automatyzacja procesów"
 
-#: main/templates/main/research.html:18
-msgid "Speech Enhancement Hardware/Software Design"
-msgstr ""
-"Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
+msgid "IT Process Automation #2"
+msgstr "Automatyzacja Procesów w IT #2"
+
+#: main/templates/main/research.html:16
+msgid "Consulting & Implementation"
+msgstr "Doradztwo i implementacja"
+
+#: main/templates/main/research.html:21
+msgid "Programming #3"
+msgstr "Programowanie #3"
 
 #: main/templates/main/research.html:22
-msgid "Data production automatization for machine learning"
-msgstr "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
+msgid "Dedicated systems for industry"
+msgstr "Dedykowane systemy dla przemysłu"
 
-#: main/templates/main/research.html:26
-msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
-msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"
+#: main/templates/main/research.html:27
+msgid "Expertise #4"
+msgstr "Ekspertyza #4"
+
+#: main/templates/main/research.html:28
+msgid "Data analysis & Multimedia Processing"
+msgstr "Analiza danych i przetwarzanie multimediów"
 
 #: main/templates/main/values.html:7
 msgid "Cooperate"
@@ -289,3 +298,23 @@ msgstr "Ufaj innym i sobie"
 #: main/templates/main/values.html:36
 msgid "Trust"
 msgstr "Zaufanie"
+
+#~ msgid "Therapy of Auditory Hallucinations"
+#~ msgstr "Terapia omamów słuchowych"
+
+#~ msgid "Voice conversion and restoration"
+#~ msgstr "Konwersja i rekonstrukcja głosu"
+
+#~ msgid "Automated speech quality assurence"
+#~ msgstr "Automatyczna ocena jakości sygnału mowy"
+
+#~ msgid "Speech Enhancement Hardware/Software Design"
+#~ msgstr ""
+#~ "Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
+
+#~ msgid "Data production automatization for machine learning"
+#~ msgstr ""
+#~ "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
+
+#~ msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
+#~ msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"
