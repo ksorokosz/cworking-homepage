@@ -148,8 +148,9 @@ div#icons {
 #icons img {
     width: 8vw;
     height: auto;
-    border-radius: 8vw;
+    border-radius: 100%;
     border: solid 0.25vw #ff5400;
+    box-shadow: 0 0 0 1px #F5F5F5;
 }
 
 /* Separator */
@@ -170,7 +171,7 @@ div#separator {
 #separator img {
     width: 65px;
     height: 65px;
-    border-radius: 65px;
+    border-radius: 100%;
     vertical-align: middle;
 }
 
@@ -188,6 +189,81 @@ div#subject {
     padding-top: 10vh;
     display: block;
 }
+
+ul#note{
+    overflow:hidden;
+    padding:3em;
+}
+
+ul#note li a{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:25vh;
+    width:15vw;
+    padding:1vw;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+ul#note li{
+    margin:5vw;
+    display: inline-block;
+}
+ul#note li h2{
+    font-size:100%;
+    font-weight:bold;
+    padding-bottom:2vh;
+}
+ul#note li p{
+    font-size:120%;
+}
+ul#note li a{
+    -webkit-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+}
+ul#note li:nth-child(even) a{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+}
+ul#note li:nth-child(3n) a{
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+}
+ul#note li:nth-child(5n) a{
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+ul#note li a:hover,ul#note li a:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+
+/* https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934 */
+
 
 /* Contact section */
 
@@ -242,6 +318,10 @@ div#contact-section textarea {
 a {
 	text-decoration: none !important;
 	color: inherit !important;
+}
+
+ul,li{
+    list-style:none;
 }
 
 .small-icon {
