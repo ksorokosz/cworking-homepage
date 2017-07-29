@@ -3,19 +3,22 @@
 
     div#about-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/about-background-middle.jpg") no-repeat center center fixed;
-	    background-size: 100% 100%;
+	    background: #f8f8f8;
+        /*url("/static/main/css/images/about-background-middle.jpg") no-repeat center center fixed;*/
+	    background-size: 100vw 100vh;
         min-height: 100vh;
-	    height: auto;
+        top: 0;
+        left: 0;
         color: #cfc8c5;
     }
 
     div#research-section {
 	    margin: 0 auto;
 	    background: url("/static/main/css/images/research-background-middle.jpg") no-repeat center center fixed;
-	    background-size: 100% 100%;
-	    height: auto;
+	    background-size: 100vw 100vh;
         min-height: 100vh;
+        top: 0;
+        left: 0;
     }
 
     div#chart-container-1 {
@@ -49,7 +52,7 @@
     }
 
     ul#note li a{
-        height:15vh;
+        height:auto;
         width:25vw;
         padding:1vw;
     }
@@ -73,18 +76,22 @@
 
     div#about-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;
-	    background-size: 100% 100%;
+	    background: #f8f8f8;
+        /*url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;*/
+	    background-size: 100vw 100vh;
         min-height: 100vh;
-	    height: auto;
+        top: 0;
+        left: 0;
         color: #cfc8c5;
     }
 
     div#research-section {
 	    margin: 0 auto;
 	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
-	    background-size: 100% 100%;
-	    height: auto;
+        background-size: 100vw 100vh;
+        min-height: 100vh;
+        top: 0;
+        left: 0;            
         min-height: 100vh;
     }
 

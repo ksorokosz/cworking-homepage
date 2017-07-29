@@ -1,4 +1,20 @@
+var slideIndex = 0;
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        var slide = slides[i];
+        $(slide).hide()
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    $(slides[slideIndex-1]).show();  
+    setTimeout(showSlides, 10000); // Change image every 10 seconds
+}
+
 $(document).ready(function() {
+
+    showSlides();
 
     $(window).on("hashchange", function(e) {
 
