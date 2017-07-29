@@ -86,17 +86,17 @@ div#main-title {
 }
 
 div#first {
-    background: url("/static/main/css/images/1.jpg") no-repeat center center;
+    background: url("/static/main/css/images/1.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 div#second {
-    background: url("/static/main/css/images/2.jpg") no-repeat center center;
+    background: url("/static/main/css/images/2.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 div#third {
-    background: url("/static/main/css/images/3.jpg") no-repeat center center;
+    background: url("/static/main/css/images/3.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
