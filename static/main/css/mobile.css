@@ -1,10 +1,32 @@
 /* Tablets/iPad */
 @media all and (max-device-width: 980px) and (min-device-width: 481px) {
 
+
+    div#first {
+        background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#second {
+        background: url("/static/main/css/images/2-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#third {
+        background: url("/static/main/css/images/3-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#main-title h1 {
+        color: white;
+        font-family: 'Jura', sans-serif !important;
+        font-size: 50pt;
+        text-shadow: 2px 2px gray;
+    }
+
     div#about-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-        /*url("/static/main/css/images/about-background-middle.jpg") no-repeat center center fixed;*/
 	    background-size: 100vw 100vh;
         min-height: 100vh;
         top: 0;
@@ -74,10 +96,31 @@
 /* Phones */
 @media all and (max-device-width: 480px) {
 
+    div#first {
+        background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#second {
+        background: url("/static/main/css/images/2-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#third {
+        background: url("/static/main/css/images/3-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#main-title h1 {
+        color: white;
+        font-family: 'Jura', sans-serif !important;
+        font-size: 40pt;
+        text-shadow: 2px 2px gray;
+    }
+
     div#about-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-        /*url("/static/main/css/images/about-background-small.jpg") no-repeat center center fixed;*/
 	    background-size: 100vw 100vh;
         min-height: 100vh;
         top: 0;

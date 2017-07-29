@@ -42,7 +42,7 @@ div#main-section {
     margin: auto;
 }
 
-.slideshow-container img {
+.slideshow-container .image {
     width: 100%;
     height: 100vh;
 }
@@ -85,6 +85,21 @@ div#main-title {
     width:100%; /* You can specify ANY width values here */ 
 }
 
+div#first {
+    background: url("/static/main/css/images/1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div#second {
+    background: url("/static/main/css/images/2.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+div#third {
+    background: url("/static/main/css/images/3.jpg") no-repeat center center;
+    background-size: cover;
+}
+
 div#main-title h1 {
     color: white;
 	font-family: 'Jura', sans-serif !important;
@@ -103,7 +118,6 @@ div#main-title h1 {
 div#about-section {
 	margin: 0 auto;
 	background: #f8f8f8;
-    /*url("/static/main/css/images/about-background.jpg") no-repeat center center fixed;*/
 	background-size: 100vw 100vh;
     min-height: 100vh;
     top: 0;
@@ -117,7 +131,7 @@ div#about-section {
 }
 
 div#container {
-    padding-top: 0vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
@@ -304,7 +318,7 @@ ul#note li a{
     -o-transform: rotate(-6deg);
     -moz-transform:rotate(-6deg);
 }
-ul#note li:nth-child(even) a{
+ul#note li:first-child a{
     -o-transform:rotate(4deg);
     -webkit-transform:rotate(4deg);
     -moz-transform:rotate(4deg);
@@ -320,11 +334,12 @@ ul#note li:nth-child(3n) a{
     top:-5px;
     background:#ccf;
 }
-ul#note li:nth-child(5n) a{
+ul#note li:nth-child(4n) a{
     -o-transform:rotate(5deg);
     -webkit-transform:rotate(5deg);
     -moz-transform:rotate(5deg);
     position:relative;
+    background:#f8c8c8;
     top:-10px;
 }
 ul#note li a:hover,ul#note li a:focus{
