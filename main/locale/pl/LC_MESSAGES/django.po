@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-25 00:12+0200\n"
+"POT-Creation-Date: 2017-07-25 00:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,11 @@ msgstr "Temat"
 msgid "Message"
 msgstr "Wiadomość"
 
-#: main/templates/main/about.html:6
+#: main/templates/main/about.html:7
 msgid "Competences"
 msgstr "Kompetencje"
 
-#: main/templates/main/about.html:12
+#: main/templates/main/about.html:13
 msgid "Values"
 msgstr "Wartości"
 
@@ -104,6 +104,11 @@ msgstr "analiza statystyczna w python, Matlab i MS Excel"
 #: main/templates/main/competences.html:25
 msgid "appropriate mathematical background"
 msgstr "odpowiednie wykształcenie matematyczne"
+
+#: main/templates/main/competences.html:28
+#: main/templates/main/competences.html:30
+msgid "process automatization"
+msgstr "automatyzacja procesów"
 
 #: main/templates/main/competences.html:33
 msgid "3+ years of experience in process automatization"
@@ -201,8 +206,8 @@ msgid "About Me"
 msgstr "O mnie"
 
 #: main/templates/main/menu-bar.html:38
-msgid "Research & Development"
-msgstr "Badania i Rozwój"
+msgid "Services"
+msgstr "Usługi"
 
 #: main/templates/main/menu-bar.html:45
 msgid "Contact"
@@ -225,9 +230,6 @@ msgid "Programming for non-engineers"
 msgstr "Programowanie dla nieinżynierów"
 
 #: main/templates/main/research.html:15
-msgid "process automatization"
-msgstr "automatyzacja procesów"
-
 msgid "IT Process Automation #2"
 msgstr "Automatyzacja Procesów w IT #2"
 
@@ -298,6 +300,9 @@ msgstr "Ufaj innym i sobie"
 #: main/templates/main/values.html:36
 msgid "Trust"
 msgstr "Zaufanie"
+
+#~ msgid "Research & Development"
+#~ msgstr "Badania i Rozwój"
 
 #~ msgid "Therapy of Auditory Hallucinations"
 #~ msgstr "Terapia omamów słuchowych"

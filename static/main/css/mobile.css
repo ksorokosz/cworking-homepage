@@ -48,6 +48,24 @@
         border-radius: 15vw;
     }
 
+    ul#note li a{
+        height:15vh;
+        width:25vw;
+        padding:1vw;
+    }
+
+    ul#note li{
+        margin:3vw;
+        display: inline-block;
+    }
+    ul#note li h2{
+        font-size:80%;
+        font-weight:bold;
+        padding-bottom:1vh;
+    }
+    ul#note li p{
+        font-size:100%;
+    }
 }
 
 /* Phones */
@@ -98,5 +116,24 @@
         width: 15vw;
         height: auto;
         border-radius: 15vw;
+    }
+
+    ul#note li a{
+        height:20vh;
+        width:25vw;
+        padding:1px;
+    }
+
+    ul#note li{
+        margin:3vw;
+        display: inline-block;
+    }
+    ul#note li h2{
+        font-size:60%;
+        font-weight:bold;
+        padding-bottom:1vh;
+    }
+    ul#note li p{
+        font-size:60%;
     }
 }
