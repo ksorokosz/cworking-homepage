@@ -79,10 +79,34 @@ div#main-section {
 
 div#main-title {
     position:absolute; 
-    top:50%; 
+    top:25vh; 
     left:50%; 
-    transform:translate(-50%, -50%); 
+    transform:translate(-50%, 0); 
     width:100%; /* You can specify ANY width values here */ 
+}
+
+/* Separator */
+
+div#separator {
+    display: block;
+	height: 10vh;
+    min-height: 65px;
+	margin: 0 auto;
+    background: rgba(255,255,255,0);
+    width: 100%;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#separator img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    vertical-align: middle;
 }
 
 div#first {
@@ -136,7 +160,6 @@ div#container {
 }
 
 div#chart-container-1 {
-    padding-top: 10vh;
     display: inline-block;
     width: 35vw;
     vertical-align: top;
@@ -212,7 +235,6 @@ div#chart {
 }
 
 div#values-icons {
-    padding-top: 10vh;
     display: inline-block;
     background-color: rgba(255,255,255,0.0);
     vertical-align: top;
@@ -243,55 +265,33 @@ div#icons {
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
-/* Separator */
-
-div#separator {
-    display: inline-block;
-	height: 10vh;
-    min-height: 65px;
-	margin: 0 auto;
-}
-
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-#separator img {
-    width: 65px;
-    height: 65px;
-    border-radius: 100%;
-    vertical-align: middle;
-}
-
 /* Research section */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
 div#research-section {
 	margin: 0 auto;
-	background: url("/static/main/css/images/research-background.jpg") no-repeat center center fixed;
-	background-size: 100vw 100vh;
-    top: 0;
-    left: 0;
+	background: url("/static/main/css/images/research-background.jpg") no-repeat center center;
+	background-size: 100% 100%;
     min-height: 100vh;
 }
 
 div#subject {
-    padding-top: 10vh;
     display: block;
 }
-
 ul#note{
     overflow:hidden;
-    padding:3em;
+    margin: 0 auto;
 }
-
+ul#note li{
+    margin:5vw;
+    display: inline-block;
+}
 ul#note li a{
     text-decoration:none;
     color:#000;
     background:#ffc;
     display:block;
-    height:25vh;
+    height:auto;
     width:15vw;
     padding:1vw;
     -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
@@ -300,10 +300,6 @@ ul#note li a{
     -moz-transition:-moz-transform .15s linear;
     -o-transition:-o-transform .15s linear;
     -webkit-transition:-webkit-transform .15s linear;
-}
-ul#note li{
-    margin:5vw;
-    display: inline-block;
 }
 ul#note li h2{
     font-size:100%;
@@ -414,6 +410,7 @@ a {
 
 ul,li{
     list-style:none;
+    padding: 0;
 }
 
 .small-icon {

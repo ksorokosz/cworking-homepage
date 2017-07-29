@@ -1,5 +1,5 @@
 /* Tablets/iPad */
-@media all and (max-device-width: 980px) and (min-device-width: 481px) {
+@media all and (max-device-width: 980px) and (min-device-width: 481px) and (orientation:portrait) {
 
 
     div#first {
@@ -27,8 +27,8 @@
     div#about-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-	    background-size: 100vw 100vh;
-        min-height: 100vh;
+	    background-size: 100vw 90vh;
+        min-height: 90vh;
         top: 0;
         left: 0;
         color: #cfc8c5;
@@ -36,7 +36,7 @@
 
     div#research-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-middle.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/research-background-middle.jpg") no-repeat center center;
 	    background-size: 100vw 100vh;
         min-height: 100vh;
         top: 0;
@@ -44,7 +44,6 @@
     }
 
     div#chart-container-1 {
-        padding-top: 10vh;
         display: block;
         width: 100%;
         background-color: rgba(255,255,255,0.0);
@@ -57,7 +56,6 @@
     }
 
     div#values-icons {
-        padding-top: 10vh;
         display: block;
         vertical-align: middle;
         background-color: rgba(255,255,255,0.0);
@@ -73,16 +71,18 @@
         border-radius: 15vw;
     }
 
+    ul#note {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     ul#note li a{
         height:auto;
         width:25vw;
         padding:1vw;
     }
 
-    ul#note li{
-        margin:3vw;
-        display: inline-block;
-    }
     ul#note li h2{
         font-size:80%;
         font-weight:bold;
@@ -94,7 +94,7 @@
 }
 
 /* Phones */
-@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 480px) and (orientation:portrait) {
 
     div#first {
         background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
@@ -121,8 +121,8 @@
     div#about-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-	    background-size: 100vw 100vh;
-        min-height: 100vh;
+	    background-size: 100vw 90vh;
+        min-height: 90vh;
         top: 0;
         left: 0;
         color: #cfc8c5;
@@ -130,7 +130,7 @@
 
     div#research-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center fixed;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center;
         background-size: 100vw 100vh;
         min-height: 100vh;
         top: 0;
@@ -169,15 +169,114 @@
     }
 
     ul#note li a{
-        height:20vh;
+        height:auto;
         width:25vw;
         padding:1px;
     }
 
-    ul#note li{
-        margin:3vw;
+    ul#note {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ul#note li h2{
+        font-size:60%;
+        font-weight:bold;
+        padding-bottom:1vh;
+    }
+    ul#note li p{
+        font-size:60%;
+    }
+}
+
+
+
+/* Phones */
+@media all and (max-device-height: 480px) and (orientation:landscape) {
+
+    div#first {
+        background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#second {
+        background: url("/static/main/css/images/2-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#third {
+        background: url("/static/main/css/images/3-middle.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    div#main-title h1 {
+        color: white;
+        font-family: 'Jura', sans-serif !important;
+        font-size: 40pt;
+        text-shadow: 2px 2px gray;
+    }
+
+    div#about-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;
+	    background-size: 100vw 90vh;
+        min-height: 90vh;
+        top: 0;
+        left: 0;
+        color: #cfc8c5;
+    }
+
+    div#research-section {
+	    margin: 0 auto;
+	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center;
+        background-size: 100vw 100vh;
+        min-height: 100vh;
+        top: 0;
+        left: 0;            
+        min-height: 100vh;
+    }
+
+    div#chart-container-1 {
+        padding-top: 10vh;
+        display: block;
+        width: 100%;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    .chart .chart-label {
+        color: white;
+        font-size: 3.5vw;
+        width: 100%;
+    }
+
+    div#values-icons {
+        padding-top: 10vh;
+        display: block;
+        vertical-align: top;
+        background-color: rgba(255,255,255,0.0);
+    }
+
+    #icons table td {
+        padding: 20px 20px;
+    }
+
+    #icons img {
+        width: 15vw;
+        height: auto;
+        border-radius: 15vw;
+    }
+
+    ul#note li a{
+        height:auto;
+        width:25vw;
+        padding:1px;
+    }
+
+    ul#note {
         display: inline-block;
     }
+
     ul#note li h2{
         font-size:60%;
         font-weight:bold;
