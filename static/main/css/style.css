@@ -126,7 +126,6 @@ div#third {
 
 div#main-title h1 {
     color: white;
-	font-family: 'Jura', sans-serif !important;
     font-size: 50pt;
     text-shadow: 2px 2px gray;
 }
@@ -134,57 +133,87 @@ div#main-title h1 {
 /* About section */
 
 .header {
-	font-family: 'Jura', sans-serif !important;
     margin-bottom: 5vh;
     color: black;
 }
 
-div#about-section {
+div#portfolio-section {
 	margin: 0 auto;
 	background: #f8f8f8;
 	background-size: 100vw 100vh;
     min-height: 100vh;
-    top: 0;
-    left: 0;
-    color: #cfc8c5;
 }
 
-.comptency {
-    text-align: left;
-    padding: 10px;
+ul#projects{
+    overflow:hidden;
+    margin: 0 auto;
+}
+ul#projects li{
+    margin: 0px 2.5%;
+    display: inline-block;
+    border-style: solid; 
+    border-width: 53px 52px 47px 47px; 
+    -moz-border-image: url("/static/main/css/images/border.png") 123 122 117 117 stretch; 
+    -webkit-border-image: url("/static/main/css/images/border.png") 123 122 117 117 stretch; 
+    -o-border-image: url("/static/main/css/images/border.png") 123 122 117 117 stretch; 
+    border-image: url("/static/main/css/images/border.png") 123 122 117 117 fill stretch;
+}
+ul#projects li a{
+    text-decoration:none;
+    display: block;
+    height: auto;
+    width: 15vw;
+    padding: 2.5%;
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+
+ul#projects li a{
+    position:relative;
+}
+
+ul#projects li h2{
+    font-size:100%;
+    font-weight:bold;
+    padding-bottom:2vh;
+}
+ul#projects li p{
+    font-size:100%;
+}
+
+ul#projects li a:hover, ul#projects li a:focus{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    position:relative;
+    z-index:5;
+}
+
+div#how-section {
+	margin: 0 auto;
+	background: #f8f8f8;
+	background-size: 100vw 100vh;
+    min-height: 100vh;
+	border-top: 1px solid #c6d2d2;
+}
+
+#process-curve {
+    margin: 5% 0;
+    width: 80%;
+}
+
+div#values-section {
+	margin: 0 auto;
+	background: #f8f8f8;
+	background-size: 100vw 100vh;
+    min-height: 100vh;
+	border-top: 1px solid #c6d2d2;
 }
 
 div#container {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-div#chart-container-1 {
-    display: inline-block;
-    width: 35vw;
-    vertical-align: top;
-    background-color: rgba(255,255,255,0.0);
-}
-
-div#chart { 
-    width: 100%;
-    margin: 0 auto;
-} 
-
-.chart {
-    list-style-type: none;
-    padding: 0;
-}
-
-/* References: http://geoffgraham.me/creating-a-responsive-css-bar-chart/ */
-.chart { margin: 0 auto; width: 80%; min-width: 140px; }
-
-.chart li {
-    border-radius: 4px 4px 0 0; /* Remember vendor prefixes */
-    box-shadow: 0 1px 0 0 rgba(255,255,255,.6) inset; /* Remember vendor prefixes */
-    padding: 3vh 0;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    padding-top: 6vh;
+    padding-bottom: 6vh;
 }
 
 .orange {
@@ -228,22 +257,10 @@ div#chart {
     border: 3px solid #ab64f4;
 }
 
-.chart .chart-label {
-    color: white;
-    font-size: 1.5vw;
-    width: 100%;
-}
-
 div#values-icons {
-    display: inline-block;
-    background-color: rgba(255,255,255,0.0);
+    display: block;
     vertical-align: top;
-}
-
-div#icons {
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
+    background-color: rgba(255,255,255,0.0);
 }
 
 #icons table {
@@ -252,11 +269,11 @@ div#icons {
 }
 
 #icons table td {
-    padding: 35px 35px;
+    padding: 5vh 10vw;
 }
 
 #icons img {
-    width: 8vw;
+    width: 10vw;
     height: auto;
     border-radius: 100%;
     border: solid 0.25vw #ff5400;
@@ -265,14 +282,15 @@ div#icons {
     box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 }
 
-/* Research section */
+/* Services section */
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
-div#research-section {
+div#services-section {
 	margin: 0 auto;
-	background: url("/static/main/css/images/research-background.jpg") no-repeat center center;
-	background-size: 100% 100%;
+	background: #f8f8f8;;
+	background-size: 100vw 100vh;
     min-height: 100vh;
+	border-top: 1px solid #c6d2d2;
 }
 
 div#subject {
@@ -283,7 +301,7 @@ ul#note{
     margin: 0 auto;
 }
 ul#note li{
-    margin:5vw;
+    margin: 4vh 5vw;
     display: inline-block;
 }
 ul#note li a{
@@ -425,7 +443,39 @@ a:hover, a:visited, a:link, a:active
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
-    font-family: 'Lobster', cursive !important;
+}
+
+
+a.standard-button {
+	padding: 15px 25px;
+	display: inline-block;
+	background-color: inherit;
+    border: 1px solid #cfc8c5;
+	width: 150px;
+}
+
+.button-container {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.button-container:hover .overlay {
+    opacity: 0.5;    
+    border: 1px solid #cfc8c5;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fff;
 }
 
 .noselect {

@@ -1,5 +1,5 @@
 /* Tablets/iPad */
-@media all and (max-device-width: 980px) and (min-device-width: 481px) and (orientation:portrait) {
+@media all and (max-device-width: 980px) and (min-device-width: 481px) {
 
 
     div#first {
@@ -24,45 +24,37 @@
         text-shadow: 2px 2px gray;
     }
 
-    div#about-section {
+    div#portfolio-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-	    background-size: 100vw 90vh;
-        min-height: 90vh;
-        top: 0;
-        left: 0;
-        color: #cfc8c5;
-    }
-
-    div#research-section {
-	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-middle.jpg") no-repeat center center;
 	    background-size: 100vw 100vh;
         min-height: 100vh;
-        top: 0;
-        left: 0;
     }
 
-    div#chart-container-1 {
-        display: block;
-        width: 100%;
-        background-color: rgba(255,255,255,0.0);
+    div#how-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
     }
 
-    .chart .chart-label {
-        color: white;
-        font-size: 2.5vw;
-        width: 100%;
+    div#values-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
     }
 
-    div#values-icons {
-        display: block;
-        vertical-align: middle;
-        background-color: rgba(255,255,255,0.0);
+    div#services-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
+	    border-top: 1px solid #c6d2d2;
     }
 
     #icons table td {
-        padding: 20px 20px;
+        padding: 5vh 8vw;
     }
 
     #icons img {
@@ -91,10 +83,31 @@
     ul#note li p{
         font-size:100%;
     }
+
+    ul#projects {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ul#projects li a{
+        height:auto;
+        width:25vw;
+        padding:1vw;
+    }
+
+    ul#projects li h2{
+        font-size:100%;
+        font-weight:bold;
+        padding-bottom:1vh;
+    }
+    ul#projects li p{
+        font-size:100%;
+    }
 }
 
 /* Phones */
-@media all and (max-device-width: 480px) and (orientation:portrait) {
+@media all and (max-device-width: 480px) {
 
     div#first {
         background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
@@ -118,60 +131,43 @@
         text-shadow: 2px 2px gray;
     }
 
-    div#about-section {
+    div#portfolio-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
-	    background-size: 100vw 90vh;
-        min-height: 90vh;
-        top: 0;
-        left: 0;
-        color: #cfc8c5;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
     }
 
-    div#research-section {
+    div#how-section {
 	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center;
-        background-size: 100vw 100vh;
-        min-height: 100vh;
-        top: 0;
-        left: 0;            
+	    background: #f8f8f8;
+	    background-size: 100vw 100vh;
         min-height: 100vh;
     }
 
-    div#chart-container-1 {
-        padding-top: 10vh;
-        display: block;
-        width: 100%;
-        background-color: rgba(255,255,255,0.0);
+    div#values-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
     }
 
-    .chart .chart-label {
-        color: white;
-        font-size: 3.5vw;
-        width: 100%;
-    }
-
-    div#values-icons {
-        padding-top: 10vh;
-        display: block;
-        vertical-align: top;
-        background-color: rgba(255,255,255,0.0);
+    div#services-section {
+	    margin: 0 auto;
+	    background: #f8f8f8;;
+	    background-size: 100vw 100vh;
+        min-height: 100vh;
+	    border-top: 1px solid #c6d2d2;
     }
 
     #icons table td {
-        padding: 20px 20px;
+        padding: 5vh 8vw;
     }
 
     #icons img {
         width: 15vw;
         height: auto;
         border-radius: 15vw;
-    }
-
-    ul#note li a{
-        height:auto;
-        width:25vw;
-        padding:1px;
     }
 
     ul#note {
@@ -180,103 +176,12 @@
         flex-direction: column;
     }
 
-    ul#note li h2{
-        font-size:60%;
-        font-weight:bold;
-        padding-bottom:1vh;
-    }
-    ul#note li p{
-        font-size:60%;
-    }
-}
-
-
-
-/* Phones */
-@media all and (max-device-height: 480px) and (orientation:landscape) {
-
-    div#first {
-        background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
-        background-size: cover;
-    }
-
-    div#second {
-        background: url("/static/main/css/images/2-middle.jpg") no-repeat center center;
-        background-size: cover;
-    }
-
-    div#third {
-        background: url("/static/main/css/images/3-middle.jpg") no-repeat center center;
-        background-size: cover;
-    }
-
-    div#main-title h1 {
-        color: white;
-        font-family: 'Jura', sans-serif !important;
-        font-size: 40pt;
-        text-shadow: 2px 2px gray;
-    }
-
-    div#about-section {
-	    margin: 0 auto;
-	    background: #f8f8f8;
-	    background-size: 100vw 90vh;
-        min-height: 90vh;
-        top: 0;
-        left: 0;
-        color: #cfc8c5;
-    }
-
-    div#research-section {
-	    margin: 0 auto;
-	    background: url("/static/main/css/images/research-background-small.jpg") no-repeat center center;
-        background-size: 100vw 100vh;
-        min-height: 100vh;
-        top: 0;
-        left: 0;            
-        min-height: 100vh;
-    }
-
-    div#chart-container-1 {
-        padding-top: 10vh;
-        display: block;
-        width: 100%;
-        background-color: rgba(255,255,255,0.0);
-    }
-
-    .chart .chart-label {
-        color: white;
-        font-size: 3.5vw;
-        width: 100%;
-    }
-
-    div#values-icons {
-        padding-top: 10vh;
-        display: block;
-        vertical-align: top;
-        background-color: rgba(255,255,255,0.0);
-    }
-
-    #icons table td {
-        padding: 20px 20px;
-    }
-
-    #icons img {
-        width: 15vw;
-        height: auto;
-        border-radius: 15vw;
-    }
-
     ul#note li a{
         height:auto;
         width:25vw;
         padding:1px;
     }
 
-    ul#note {
-        display: inline-block;
-    }
-
     ul#note li h2{
         font-size:60%;
         font-weight:bold;
@@ -285,4 +190,27 @@
     ul#note li p{
         font-size:60%;
     }
+
+
+    ul#projects {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ul#projects li a{
+        height:auto;
+        width:25vw;
+        padding:1px;
+    }
+
+    ul#projects li h2{
+        font-size:60%;
+        font-weight:bold;
+        padding-bottom:1vh;
+    }
+    ul#projects li p{
+        font-size:60%;
+    }
 }
+

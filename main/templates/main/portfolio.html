@@ -1,0 +1,42 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<div id="container" class="container-fluid">
+    <h3 class="noselect header">{% blocktrans %}Portfolio{% endblocktrans %}</h3>
+    <p>{% blocktrans %}Check my activities and projects I have successfully contributed to. Read more on my{% endblocktrans %} 
+        <a target="_blank" href="https://www.linkedin.com/in/kamilsorokosz/" style="color: blue !important;">{% blocktrans %}linkedin profile.{% endblocktrans %}</a>
+    </p>
+        <ul id="projects" class="noselect">
+            <li class="project">
+                <a>
+                    <h2>{% blocktrans %}Programming Courses{% endblocktrans %}</h2>
+                    <p class="description">{% blocktrans %}C++ Webinarium & Online Course, Stationary Lessons{% endblocktrans %}</p>
+                </a>
+            </li>
+            <li class="project">
+                <a>
+                    <h2>{% blocktrans %}Speech Enhancement & Analysis{% endblocktrans %}</h2>
+                    <p class="description">{% blocktrans %}Spatial Beamforming, Automated Quality Assurence{% endblocktrans %}</p>
+                </a>
+            </li>
+            <li class="project">
+                <a>
+                    <h2>{% blocktrans %}Computer based therapy of auditory hallucinations{% endblocktrans %}</h2>
+                    <p class="description">{% blocktrans %}Visual Speech Synthesis and Audio Conversion{% endblocktrans %}</p>
+                </a>
+            </li>
+            <li class="project">
+                <a>
+                    <h2>{% blocktrans %}Reducing delays in product development cycle{% endblocktrans %}</h2>
+                    <p class="description">{% blocktrans %}Robotic automation software{% endblocktrans %}</p>
+                </a>
+            </li>
+            <li class="project">
+                <a>
+                    <h2>{% blocktrans %}Cworking++{% endblocktrans %}</h2>
+                    <p class="description">{% blocktrans %}Blogging about programming and team management.{% endblocktrans %}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

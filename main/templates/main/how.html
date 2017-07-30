@@ -1,0 +1,10 @@
+{% load i18n %}
+{% load staticfiles %}
+
+<div id="container" class="container-fluid">
+    <h3 class="noselect header">{% blocktrans %}How I work?{% endblocktrans %}</h3>
+    <p>{% blocktrans %}I want to work with you on your project to deliver the highest quality product.{% endblocktrans %}
+    <object id="process-curve" type="image/svg+xml" data="{% static 'main/css/images/curve-'|add:LANGUAGE_CODE|add:'.svg' %}">
+        <p>Your browser does not support SVG</p>
+    </object>
+</div>

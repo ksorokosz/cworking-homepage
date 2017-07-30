@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-25 00:42+0200\n"
+"POT-Creation-Date: 2017-07-30 23:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,155 +39,13 @@ msgstr "Temat"
 msgid "Message"
 msgstr "Wiadomość"
 
-#: main/templates/main/about.html:7
-msgid "Competences"
-msgstr "Kompetencje"
-
-#: main/templates/main/about.html:13
-msgid "Values"
-msgstr "Wartości"
-
-#: main/templates/main/base.html:8
+#: main/templates/main/base.html:8 main/templates/main/portfolio.html:36
 msgid "Cworking++"
 msgstr "Cworking++"
 
 #: main/templates/main/base.html:34
 msgid "Cworking++ project source code"
 msgstr "Kod projektu Cworking++"
-
-#: main/templates/main/competences.html:5
-#: main/templates/main/competences.html:7
-msgid "digital signal processing"
-msgstr "cyfrowe przetwarzanie sygnałów"
-
-#: main/templates/main/competences.html:10
-msgid "6+ years of experience in multimedia signal processing"
-msgstr "6+ lat doświadczeń w przetwarzaniu sygnałów multimedialnych"
-
-#: main/templates/main/competences.html:11
-msgid ""
-"commerically used systems for speech and audio signals analysis and "
-"enhancement"
-msgstr "komercyjne systemy do analizy i poprawy sygnałów mowy i audio"
-
-#: main/templates/main/competences.html:12
-msgid "practitioned speech recognition and synthesis technologies"
-msgstr "praktyczna znajomość technologii rozpoznawania i syntezy mowy"
-
-#: main/templates/main/competences.html:13
-msgid "practitioned video steganography and encryption"
-msgstr "praktyczna znajomość steganografii i szyfrowania wideo"
-
-#: main/templates/main/competences.html:14
-msgid "international publications in the area of signal processing"
-msgstr ""
-"publikacje w międzynarodowych czasopismach na temat przetwarzania sygnału "
-"mowy"
-
-#: main/templates/main/competences.html:17
-#: main/templates/main/competences.html:19
-msgid "data analysis"
-msgstr "analiza danych"
-
-#: main/templates/main/competences.html:22
-msgid "6+ years of experience in data analysis"
-msgstr "6+ lat doświadczeń w analizie danych"
-
-#: main/templates/main/competences.html:23
-msgid "anomaly detection in thousands of data from annotation services"
-msgstr "detekcja anomalii pośród tysięcy annotacji"
-
-#: main/templates/main/competences.html:24
-msgid "statistical analysis practitioned in python, Matlab and MS Excel"
-msgstr "analiza statystyczna w python, Matlab i MS Excel"
-
-#: main/templates/main/competences.html:25
-msgid "appropriate mathematical background"
-msgstr "odpowiednie wykształcenie matematyczne"
-
-#: main/templates/main/competences.html:28
-#: main/templates/main/competences.html:30
-msgid "process automatization"
-msgstr "automatyzacja procesów"
-
-#: main/templates/main/competences.html:33
-msgid "3+ years of experience in process automatization"
-msgstr "3+ lat doświadczeń w pracach nad automatyzacją procesów"
-
-#: main/templates/main/competences.html:34
-msgid "automatized production of audio data for machine learning purposes"
-msgstr "automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
-
-#: main/templates/main/competences.html:35
-msgid "dealing with 'muda' and ineffectiveness in a development team"
-msgstr "usuwanie barier i marnotrastwa w zespole rozwijającym oprogramowanie"
-
-#: main/templates/main/competences.html:36
-msgid "using webservices for simplifying work"
-msgstr "użycie technologii webowej do upraszczania codziennej pracy"
-
-#: main/templates/main/competences.html:37
-msgid "mentoring junior developers"
-msgstr "wsparcie młodszych programistów"
-
-#: main/templates/main/competences.html:38
-msgid "practitioned test driven development and agile methodologies"
-msgstr "praktyczna znajomość metodyk zwinnych i programowania TDD"
-
-#: main/templates/main/competences.html:41
-#: main/templates/main/competences.html:43
-msgid "system design"
-msgstr "projektowanie systemów"
-
-#: main/templates/main/competences.html:46
-msgid ""
-"developing and maintening commercial systems intensively used by non-"
-"engineers"
-msgstr ""
-"rozwój i utrzymywanie systemów intensywnie wykorzystywanych przez nie-"
-"inżynierów"
-
-#: main/templates/main/competences.html:47
-msgid ""
-"developing network, distributed services for data analysis and processing"
-msgstr ""
-"rozwój i projektowanie sieciowych, rozproszonych serwisów do analizy i "
-"przetwarzania danych"
-
-#: main/templates/main/competences.html:48
-msgid "practitioned parallelization and multithreading"
-msgstr "praktyczna znajomość programowania wielowątkowego i wieloprocesowego"
-
-#: main/templates/main/competences.html:49
-msgid ""
-"practitioned programming on different platforms: ARM Cortex M3, Linux, "
-"Windows"
-msgstr ""
-"praktyczna znajmość programowania na platformach: ARM Cortex M3, Linux, "
-"Windows"
-
-#: main/templates/main/competences.html:52
-#: main/templates/main/competences.html:54
-msgid "education"
-msgstr "edukacja"
-
-#: main/templates/main/competences.html:57
-msgid "conducted programming courses for children and teachers"
-msgstr "przeprowadzenie kursów programowania dla dzieci i nauczycieli"
-
-#: main/templates/main/competences.html:58
-msgid "prepared C++ tutorial for beginners and intermediate level"
-msgstr "przygotowanie tutoriala C++ dla początkujących i średniozaawansowanych"
-
-#: main/templates/main/competences.html:59
-msgid "blogging about programming and team management"
-msgstr "blog o programowaniu i zarządzaniu zespołem"
-
-#: main/templates/main/competences.html:60
-msgid "active coursera member: leadership, data science, programming"
-msgstr ""
-"aktywny członek platformy edukacyjnej coursera: zarządzanie, uczenie "
-"maszynowe, programowanie"
 
 #: main/templates/main/contact.html:5
 msgid "feel free to contact me..."
@@ -197,129 +55,187 @@ msgstr "skontaktuj się ze mną..."
 msgid "Send"
 msgstr "Wyślij"
 
+#: main/templates/main/how.html:5
+msgid "How I work?"
+msgstr "Jak pracuję?"
+
+#: main/templates/main/how.html:6
+msgid ""
+"I want to work with you on your project to deliver the highest quality "
+"product."
+msgstr "Chcę współpracować z Tobą aby stworzyć najwyższej jakości produkt."
+
 #: main/templates/main/menu-bar.html:25
 msgid "Blog"
 msgstr "Blog"
 
-#: main/templates/main/menu-bar.html:32
-msgid "About Me"
-msgstr "O mnie"
+#: main/templates/main/menu-bar.html:32 main/templates/main/portfolio.html:5
+msgid "Portfolio"
+msgstr "Portfolio"
 
-#: main/templates/main/menu-bar.html:38
+#: main/templates/main/menu-bar.html:38 main/templates/main/values.html:6
+msgid "My Values"
+msgstr "Moje Wartości"
+
+#: main/templates/main/menu-bar.html:44
+msgid "How I Work?"
+msgstr "Jak pracuję"
+
+#: main/templates/main/menu-bar.html:50 main/templates/main/services.html:5
 msgid "Services"
 msgstr "Usługi"
 
-#: main/templates/main/menu-bar.html:45
+#: main/templates/main/menu-bar.html:57
 msgid "Contact"
 msgstr "Kontakt"
 
-#: main/templates/main/menu-bar.html:49
+#: main/templates/main/menu-bar.html:61
 msgid "Polish"
 msgstr "pl"
 
-#: main/templates/main/menu-bar.html:53
+#: main/templates/main/menu-bar.html:65
 msgid "English"
 msgstr "en"
 
-#: main/templates/main/research.html:9
+#: main/templates/main/portfolio.html:6
+msgid ""
+"Check my activities and projects I have successfully contributed to. Read "
+"more on my"
+msgstr ""
+"Sprawdź moje kompetencje i projekty w których brałem udział. Przeczytaj "
+"więcej na moim"
+
+#: main/templates/main/portfolio.html:7
+msgid "linkedin profile."
+msgstr "profilu linkedin"
+
+#: main/templates/main/portfolio.html:12
+msgid "Programming Courses"
+msgstr "Kursy Programowania"
+
+#: main/templates/main/portfolio.html:13
+msgid "C++ Webinarium & Online Course, Stationary Lessons"
+msgstr "Webinar C++. Lekcje stacjonarne."
+
+#: main/templates/main/portfolio.html:18
+msgid "Speech Enhancement & Analysis"
+msgstr "Doskonalenie i analiza sygnału mowy"
+
+#: main/templates/main/portfolio.html:19
+msgid "Spatial Beamforming, Automated Quality Assurence"
+msgstr "Beamforming przestrzenny. Automatyczna ocena jakości."
+
+#: main/templates/main/portfolio.html:24
+msgid "Computer based therapy of auditory hallucinations"
+msgstr "Terapia omamów głosowych z użyciem technik komputerowych."
+
+#: main/templates/main/portfolio.html:25
+msgid "Visual Speech Synthesis and Audio Conversion"
+msgstr "Wizyjna synteza mowy i konwerjsa audio."
+
+#: main/templates/main/portfolio.html:30
+msgid "Reducing delays in product development cycle"
+msgstr "Ograniczenie opóźnień przy wytwarzaniu produktu"
+
+#: main/templates/main/portfolio.html:31
+msgid "Robotic automation software"
+msgstr "Oprogramowanie do automatyzacji"
+
+#: main/templates/main/portfolio.html:37
+msgid "Blogging about programming and team management."
+msgstr "Blog o programowaniu i zarządzaniu zespołem"
+
+#: main/templates/main/services.html:6
+msgid ""
+"I believe that my expertise and experience will help you to do your work "
+"without worrying about the deadlines."
+msgstr ""
+"Wierzę, że moja wiedza i doświadczenie pomoże Ci wykonywać swoją pracę bez "
+"zmartwień o terminy."
+
+#: main/templates/main/services.html:10
 msgid "Education #1"
 msgstr "Edukacja #1"
 
-#: main/templates/main/research.html:10
-msgid "Programming for non-engineers"
-msgstr "Programowanie dla nieinżynierów"
+#: main/templates/main/services.html:11
+msgid "Programming for non-engineers. Mentoring."
+msgstr "Programowanie dla nieinżynierów. Mentoring."
 
-#: main/templates/main/research.html:15
-msgid "IT Process Automation #2"
-msgstr "Automatyzacja Procesów w IT #2"
+#: main/templates/main/services.html:16
+msgid "Process Automation #2"
+msgstr "Automatyzacja Procesów #2"
 
-#: main/templates/main/research.html:16
+#: main/templates/main/services.html:17
 msgid "Consulting & Implementation"
 msgstr "Doradztwo i implementacja"
 
-#: main/templates/main/research.html:21
+#: main/templates/main/services.html:22
 msgid "Programming #3"
 msgstr "Programowanie #3"
 
-#: main/templates/main/research.html:22
+#: main/templates/main/services.html:23
 msgid "Dedicated systems for industry"
 msgstr "Dedykowane systemy dla przemysłu"
 
-#: main/templates/main/research.html:27
+#: main/templates/main/services.html:28
 msgid "Expertise #4"
 msgstr "Ekspertyza #4"
 
-#: main/templates/main/research.html:28
+#: main/templates/main/services.html:29
 msgid "Data analysis & Multimedia Processing"
 msgstr "Analiza danych i przetwarzanie multimediów"
 
 #: main/templates/main/values.html:7
+msgid ""
+"I'm applying these 6 core values in my daily work and relations with others."
+msgstr ""
+"Przy codziennej pracy i budowaniu relacji z innymi jestem wierny "
+"następyjącym zasadom."
+
+#: main/templates/main/values.html:12
 msgid "Cooperate"
 msgstr "Współpracuj"
 
-#: main/templates/main/values.html:9
+#: main/templates/main/values.html:14
 msgid "Cooperation"
 msgstr "Współpraca"
 
-#: main/templates/main/values.html:12
+#: main/templates/main/values.html:17
 msgid "Be accurate"
 msgstr "Bądź dokładny"
 
-#: main/templates/main/values.html:14
+#: main/templates/main/values.html:19
 msgid "Precision"
 msgstr "Precyzja"
 
-#: main/templates/main/values.html:17
+#: main/templates/main/values.html:22
 msgid "Use your knowledge"
 msgstr "Używaj rozumu"
 
-#: main/templates/main/values.html:19
+#: main/templates/main/values.html:24
 msgid "Knowledge"
 msgstr "Wiedza"
 
-#: main/templates/main/values.html:24
+#: main/templates/main/values.html:29
 msgid "Be patient"
 msgstr "Bądź cierpliwy"
 
-#: main/templates/main/values.html:26
+#: main/templates/main/values.html:31
 msgid "Patience"
 msgstr "Cierpliwość"
 
-#: main/templates/main/values.html:29
+#: main/templates/main/values.html:34
 msgid "Communicate"
 msgstr "Rozmawiaj"
 
-#: main/templates/main/values.html:31
+#: main/templates/main/values.html:36
 msgid "Communication"
 msgstr "Komunikacja"
 
-#: main/templates/main/values.html:34
+#: main/templates/main/values.html:39
 msgid "Trust others and yourself"
 msgstr "Ufaj innym i sobie"
 
-#: main/templates/main/values.html:36
+#: main/templates/main/values.html:41
 msgid "Trust"
 msgstr "Zaufanie"
-
-#~ msgid "Research & Development"
-#~ msgstr "Badania i Rozwój"
-
-#~ msgid "Therapy of Auditory Hallucinations"
-#~ msgstr "Terapia omamów słuchowych"
-
-#~ msgid "Voice conversion and restoration"
-#~ msgstr "Konwersja i rekonstrukcja głosu"
-
-#~ msgid "Automated speech quality assurence"
-#~ msgstr "Automatyczna ocena jakości sygnału mowy"
-
-#~ msgid "Speech Enhancement Hardware/Software Design"
-#~ msgstr ""
-#~ "Projektowanie urządzeń i oprogramowania do poprawy jakości sygnału mowy."
-
-#~ msgid "Data production automatization for machine learning"
-#~ msgstr ""
-#~ "Automatyzacja procesu produkcji danych na potrzeby uczenia maszynowego"
-
-#~ msgid "LTE Physical Layer & Stack. LTE System Level Interfaces."
-#~ msgstr "Warstwa fizyczna i stos LTE. Symulatory systemu LTE"

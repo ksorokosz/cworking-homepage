@@ -1,39 +1,47 @@
 {% load i18n %}
 {% load staticfiles %}
 
-<table>
-    <tr>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Cooperate{% endblocktrans %}" 
-                 src="{% static 'main/css/images/cooperation.png' %}" 
-                 alt="{% blocktrans %}Cooperation{% endblocktrans %}" border="0" /> 
-        </td>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Be accurate{% endblocktrans %}" 
-                 src="{% static 'main/css/images/precision.png' %}" 
-                 alt="{% blocktrans %}Precision{% endblocktrans %}" border="0" /> 
-        </td>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Use your knowledge{% endblocktrans %}" 
-                 src="{% static 'main/css/images/knowledge.png' %}" 
-                 alt="{% blocktrans %}Knowledge{% endblocktrans %}" border="0" /> 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Be patient{% endblocktrans %}" 
-                 src="{% static 'main/css/images/patience.png' %}" 
-                 alt="{% blocktrans %}Patience{% endblocktrans %}" border="0" /> 
-        </td>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Communicate{% endblocktrans %}" 
-                 src="{% static 'main/css/images/communication.png' %}" 
-                 alt="{% blocktrans %}Communication{% endblocktrans %}" border="0" /> 
-        </td>
-        <td>
-            <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Trust others and yourself{% endblocktrans %}" 
-                 src="{% static 'main/css/images/trust.png' %}" 
-                 alt="{% blocktrans %}Trust{% endblocktrans %}" border="0" /> 
-        </td>
-    </tr>
-</table>
+<div id="container" class="container-fluid">
+<div id="values-icons">
+    <h3 class="noselect header">{% blocktrans %}My Values{% endblocktrans %}</h3>
+    <p>{% blocktrans %}I'm applying these 6 core values in my daily work and relations with others.{% endblocktrans %}</p>
+    <div id="icons">
+        <table>
+            <tr>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Cooperate{% endblocktrans %}" 
+                         src="{% static 'main/css/images/cooperation.png' %}" 
+                         alt="{% blocktrans %}Cooperation{% endblocktrans %}" border="0" /> 
+                </td>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Be accurate{% endblocktrans %}" 
+                         src="{% static 'main/css/images/precision.png' %}" 
+                         alt="{% blocktrans %}Precision{% endblocktrans %}" border="0" /> 
+                </td>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Use your knowledge{% endblocktrans %}" 
+                         src="{% static 'main/css/images/knowledge.png' %}" 
+                         alt="{% blocktrans %}Knowledge{% endblocktrans %}" border="0" /> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Be patient{% endblocktrans %}" 
+                         src="{% static 'main/css/images/patience.png' %}" 
+                         alt="{% blocktrans %}Patience{% endblocktrans %}" border="0" /> 
+                </td>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Communicate{% endblocktrans %}" 
+                         src="{% static 'main/css/images/communication.png' %}" 
+                         alt="{% blocktrans %}Communication{% endblocktrans %}" border="0" /> 
+                </td>
+                <td>
+                    <img id="spinner" data-toggle="tooltip" title="{% blocktrans %}Trust others and yourself{% endblocktrans %}" 
+                         src="{% static 'main/css/images/trust.png' %}" 
+                         alt="{% blocktrans %}Trust{% endblocktrans %}" border="0" /> 
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</div>
