@@ -26,6 +26,27 @@ body {
     margin-bottom: 0 !important;
 }
 
+.navbar-nav > .active-menu > a.menu,
+.navbar-nav > .active-menu > a.menu:hover,.navbar-nav > li > a.menu:hover {
+    text-decoration: none;
+    border-radius:0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff5400;
+}
+.navbar-nav > li > a.menu{
+    border-radius:0px;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,.navbar-nav > li > a:hover {
+    text-decoration: none;
+    border-radius:0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #e7e7e7;
+}
+
 /* Main section */
 
 div#main-section {
@@ -79,7 +100,7 @@ div#main-section {
 
 div#main-title {
     position:absolute; 
-    top:25vh; 
+    top:15vh; 
     left:50%; 
     transform:translate(-50%, 0); 
     width:100%; /* You can specify ANY width values here */ 
@@ -92,7 +113,6 @@ div#separator {
 	height: 10vh;
     min-height: 65px;
 	margin: 0 auto;
-    background: rgba(255,255,255,0);
     width: 100%;
 }
 
@@ -112,16 +132,19 @@ div#separator {
 div#first {
     background: url("/static/main/css/images/1.jpg") no-repeat center center fixed;
     background-size: cover;
+    opacity: 1;
 }
 
 div#second {
     background: url("/static/main/css/images/2.jpg") no-repeat center center fixed;
     background-size: cover;
+    opacity: 1;
 }
 
 div#third {
     background: url("/static/main/css/images/3.jpg") no-repeat center center fixed;
     background-size: cover;
+    opacity: 1;
 }
 
 div#main-title h1 {
@@ -141,7 +164,6 @@ div#portfolio-section {
 	margin: 0 auto;
 	background: #f8f8f8;
 	background-size: 100vw 100vh;
-    min-height: 100vh;
 }
 
 ul#projects{
@@ -194,7 +216,6 @@ div#how-section {
 	margin: 0 auto;
 	background: #f8f8f8;
 	background-size: 100vw 100vh;
-    min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
 }
 
@@ -207,13 +228,12 @@ div#values-section {
 	margin: 0 auto;
 	background: #f8f8f8;
 	background-size: 100vw 100vh;
-    min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
 }
 
 div#container {
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .orange {
@@ -289,7 +309,6 @@ div#services-section {
 	margin: 0 auto;
 	background: #f8f8f8;;
 	background-size: 100vw 100vh;
-    min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
 }
 
@@ -376,7 +395,6 @@ ul#note li a:hover,ul#note li a:focus{
 div#contact-section {
 	margin: 0 auto; 
     height: 100vh;
-    min-height: 100vh;
 	border-top: 1px solid #c6d2d2;
 }
 
@@ -424,6 +442,7 @@ div#contact-section textarea {
 a {
 	text-decoration: none !important;
 	color: inherit !important;
+    outline: 0;
 }
 
 ul,li{

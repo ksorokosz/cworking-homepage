@@ -1,7 +1,6 @@
 /* Tablets/iPad */
 @media all and (max-device-width: 980px) and (min-device-width: 481px) {
 
-
     div#first {
         background: url("/static/main/css/images/1-middle.jpg") no-repeat center center;
         background-size: cover;
@@ -28,28 +27,24 @@
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#how-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#values-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#services-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
 	    border-top: 1px solid #c6d2d2;
     }
 
@@ -135,28 +130,24 @@
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#how-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#values-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
     }
 
     div#services-section {
 	    margin: 0 auto;
 	    background: #f8f8f8;;
 	    background-size: 100vw 100vh;
-        min-height: 100vh;
 	    border-top: 1px solid #c6d2d2;
     }
 

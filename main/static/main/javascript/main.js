@@ -39,4 +39,9 @@ $(document).ready(function() {
     $(".clickable").on("click", function() {
         $(this).next().slideToggle();
     });
+
+    $(".nav a").on("click", function(){
+       $(".nav").find(".active-menu").removeClass("active-menu");
+       $(this).parent().addClass("active-menu");
+    });
 });

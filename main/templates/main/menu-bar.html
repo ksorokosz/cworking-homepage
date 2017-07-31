@@ -2,7 +2,7 @@
 {% load i18n %}
 
 <!-- From tutorial: https://getbootstrap.com/components/#navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-toggleable-md navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -20,43 +20,44 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+
         <li>
-            <a target="_blank" href="http://cworking.wordpress.com">
+            <a class="menu"  target="_blank" href="http://cworking.wordpress.com">
                 {% blocktrans %}Blog{% endblocktrans %}
                 <span class="sr-only">(current)</span>
             </a>
         </li>
 
         <li>
-            <a href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#portfolio">
+            <a class="menu"  href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#portfolio">
                 {% blocktrans %}Portfolio{% endblocktrans %}
             </a>
         </li>
 
         <li>
-            <a href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#values">
+            <a class="dropdown-item menu" href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#values">
                 {% blocktrans %}My Values{% endblocktrans %}
             </a>
         </li>
-
         <li>
-            <a href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#how">
+            <a class="dropdown-item menu" href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#how">
                 {% blocktrans %}How I Work?{% endblocktrans %}
             </a>
         </li>
 
         <li>
-            <a href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#services">
+            <a class="menu" href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#services">
                 {% blocktrans %}Services{% endblocktrans %}
                 <span class="sr-only">(current)</span>
             </a>
         </li>
 
         <li>
-            <a href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#contact">
+            <a class="menu"  href="{{ SITE_URL }}/{{ LANGUAGE_CODE }}/#contact">
                 {% blocktrans %}Contact{% endblocktrans %}
             </a>
         </li>
+
         <li class="{% if LANGUAGE_CODE == 'pl' %}active{% endif %}">
             <a href="{{ SITE_URL }}/pl/">{% blocktrans %}Polish{% endblocktrans %}
             </a>

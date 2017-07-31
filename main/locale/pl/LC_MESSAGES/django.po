@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-30 23:26+0200\n"
+"POT-Creation-Date: 2017-07-31 06:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,35 +65,39 @@ msgid ""
 "product."
 msgstr "Chcę współpracować z Tobą aby stworzyć najwyższej jakości produkt."
 
-#: main/templates/main/menu-bar.html:25
+#: main/templates/main/menu-bar.html:26
 msgid "Blog"
 msgstr "Blog"
 
-#: main/templates/main/menu-bar.html:32 main/templates/main/portfolio.html:5
+#: main/templates/main/menu-bar.html:33 main/templates/main/portfolio.html:5
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: main/templates/main/menu-bar.html:38 main/templates/main/values.html:6
+#: main/templates/main/menu-bar.html:39
+msgid "About me"
+msgstr "O mnie"
+
+#: main/templates/main/menu-bar.html:44 main/templates/main/values.html:6
 msgid "My Values"
 msgstr "Moje Wartości"
 
-#: main/templates/main/menu-bar.html:44
+#: main/templates/main/menu-bar.html:49
 msgid "How I Work?"
-msgstr "Jak pracuję"
+msgstr "Jak pracuję?"
 
-#: main/templates/main/menu-bar.html:50 main/templates/main/services.html:5
+#: main/templates/main/menu-bar.html:57 main/templates/main/services.html:5
 msgid "Services"
 msgstr "Usługi"
 
-#: main/templates/main/menu-bar.html:57
+#: main/templates/main/menu-bar.html:64
 msgid "Contact"
 msgstr "Kontakt"
 
-#: main/templates/main/menu-bar.html:61
+#: main/templates/main/menu-bar.html:69
 msgid "Polish"
 msgstr "pl"
 
-#: main/templates/main/menu-bar.html:65
+#: main/templates/main/menu-bar.html:73
 msgid "English"
 msgstr "en"
 
